@@ -1,0 +1,2797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/all.css">
+	<!-- <script src="assets/js/jquery.min.js"></script> -->
+
+	<!-- Modal -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Google Map -->
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoj7wSW7HRcqu-C1ewP6zTWWi3Aqzq1sE&callback=initMap"
+		type="text/javascript"></script>
+
+	<!-- Table -->
+	<link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css">
+	<script src="assets/js/jquery.dataTables.min.js"></script>
+	<script src="assets/js/dataTables.bootstrap4.min.js"></script>
+	<title>E-commerce</title>
+
+	<!-- Navbar  -->
+	<link data-minify="1" rel='stylesheet' id='flaticon-css'
+		href='wp-content/cache/min/1/wp-content/themes/ecome/assets/fonts/flaticon/flaticon-5df575c25b44ceeb262050566cce8b88.css'
+		type='text/css' media='all' />
+	<link rel='stylesheet' id='font-awesome-css'
+		href='wp-content/cache/busting/1/wp-content/themes/ecome/assets/css/font-awesome.min-1.5.8.css' type='text/css'
+		media='all' />
+
+	<link data-minify="1" rel='stylesheet' id='ecome-style-css'
+		href='wp-content/cache/min/1/wp-content/themes/ecome/assets/css/style-b8c696eb60aefa39cecd3b0469a35df5.css'
+		type='text/css' media='all' />
+
+	<link data-minify="1" rel='stylesheet' id='ecome-megamenu-css'
+		href='wp-content/cache/min/1/wp-content/themes/ecome/framework/includes/megamenu/css/frontend-bd4d18583d0ca302aca614aa019ec13e.css'
+		type='text/css' media='all' />
+
+	<link rel='stylesheet' id='js_composer_front-css'
+		href='wp-content/cache/busting/1/wp-content/plugins/js_composer/assets/css/js_composer.min-6.6.0.css'
+		type='text/css' media='all' />
+
+
+	<script type='text/javascript' src='wp-content/cache/busting/1/wp-includes/js/jquery/jquery.min-3.5.1.js'
+		id='jquery-core-js'></script>
+	<script type='text/javascript' src='wp-content/cache/busting/1/wp-includes/js/jquery/jquery-migrate.min-3.3.2.js'
+		id='jquery-migrate-js' defer></script>
+</head>
+<body>
+	<div onclick="topFunction()" id="goTop">
+		<img src="./assets/images/totem/index/1.png" alt="">
+		<a href="https://wa.me/0552405340"><i class="fa fa-whatsapp"></i></a>
+	</div>
+	<header id="header" class="header style1 header-sticky">
+		<div class="header-top">
+			<div class="header-container">
+				<div class="header-top-inner">
+					<ul id="menu-top-left-menu" class="ecome-nav top-bar-menu">
+						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+								class="ecome-menu-item-title" href="#">Add anything here or just remove it...</a></li>
+					</ul>
+					<ul id="menu-top-right-menu" class="ecome-nav top-bar-menu right">
+						<li class="menu-item ecome-dropdown block-language">
+							<a href="index.html" data-ecome="ecome-dropdown">
+								<img src="wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" height="12"
+									alt="en" width="18" /> English </a> <span class="toggle-submenu"></span>
+							<ul class="sub-menu">
+								<li class="menu-item">
+									<a href="indexcf53.html?lang=it">
+										<img src="wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png"
+											height="12" alt="it" width="18" /> Italiano </a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom">
+							<a class="ecome-menu-item-title" href="#"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+								class="ecome-menu-item-title" href="#"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li id="menu-item-226" class="menu-item menu-item-type-custom menu-item-object-custom">
+							<a class="ecome-menu-item-title" href="#"><i class="fa fa-instagram"></i></a>
+						</li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+								class="ecome-menu-item-title" href="#"><i class="fab fa-youtube"></i></a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-middle" id="header-middle">
+			<div class="header-container">
+				<div class="header-middle-inner">
+					<div class="logo d-md-block">
+						<a href="index.html"> <img alt="Ecome" src="./assets/images/totem/index/logoelab.png"
+								class="_rw" /></a>
+					</div>
+					<div class="block-search">
+						<form role="search" class="form-search block-search ecome-live-search-form">
+							<div class="form-content search-box results-search">
+								<div class="inner">
+									<input autocomplete="off" type="text" class="searchfield txt-livesearch input"
+										name="s" value="" placeholder="Axtar...">
+								</div>
+							</div>
+							<input type="hidden" name="post_type" value="product" />
+							<input type="hidden" name="taxonomy" value="product_cat">
+							<button type="submit" class="btn-submit">
+								<span class="fa fa-search" aria-hidden="true"></span>
+							</button>
+						</form>
+					</div>
+					<div class="header-control">
+						<div class="header-control-inner">
+							<div class="meta-woo">
+								<div class="mobile-logo d-sm-block d-md-none">
+									<a href="index.html"> <img alt="Ecome"
+											src="./assets/images/totem/index/logoelab.png" class="_rw"></a>
+								</div>
+								<div class="d-flex justify-content-between w-100">
+									<div class="account-navigation">
+										<div class="menu-item block-user ecome-dropdown">
+											<div>
+												<a class="woo-wishlist-link" href="sign.html">
+													<span class="flaticon-profile"></span></a>
+											</div>
+											<div class="login-dropdown">
+												<div class="loggedin">
+													<div class="user-loggedin-container">
+														<p class="user-name">johnwalker@gamil.com</p>
+														<a href="account.html" class="loggedin-account-item">
+															<i class="fa fa-gift"></i>
+															<p>My orders</p>
+														</a>
+														<a href="account.html" class="loggedin-account-item">
+															<i class="flaticon-heart-shape-outline"></i>
+															<p>My favorites</p>
+														</a>
+														<a href="account.html" class="loggedin-account-item">
+															<i class="fa fa-calendar"></i>
+															<p>Special days</p>
+														</a>
+														<a href="account.html" class="loggedin-account-item">
+															<i class="fa fa-edit"></i>
+															<p>Edit profile</p>
+														</a>
+														<a href="account.html" class="loggedin-account-item">
+															<i class="fa fa-sign-out"></i>
+															<p>Log out</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="block-wishlist">
+											<a class="woo-wishlist-link" href="account.html">
+												<span class="flaticon-heart-shape-outline"></span>
+											</a>
+										</div>
+										<div class="block-minicart ecome-mini-cart ecome-dropdown">
+											<div class="shopcart-dropdown block-cart-link" data-ecome="ecome-dropdown">
+												<a class="link-dropdown" href="basket.html">
+													<span class="flaticon-online-shopping-cart">
+														<span class="count">0</span>
+													</span>
+												</a>
+											</div>
+											<div class="widget woocommerce widget_shopping_cart">
+												<div class="widget_shopping_cart_content">
+													<div class="thereis-noproduct">
+														<p>Your chart is empty</p>
+														<p><span>Look favorites and get shopping!</span></p>
+													</div>
+
+													<a href="#" id="carousel-wrapper" style="display: none;">
+														<div class="basket-items">
+															<div>
+																<img src="assets/images/totem/index/2.jpg">
+																<div class="basket-slider-name">Satin dress white Satin
+																	dress white Satin dress white</div>
+																<div class="basket-slider-size">Size: <span>34</span>
+																</div>
+																<div class="basket-slider-price">34AZN</div>
+															</div>
+															<div>
+																<img src="assets/images/totem/index/2.jpg">
+																<div class="basket-slider-name">Satin dress white Satin
+																	dress white Satin dress white</div>
+																<div class="basket-slider-size">Size: <span>34</span>
+																</div>
+																<div class="basket-slider-price">34AZN</div>
+															</div>
+															<div>
+																<img src="assets/images/totem/index/2.jpg">
+																<div class="basket-slider-name">Satin dress white Satin
+																	dress white Satin dress white</div>
+																<div class="basket-slider-size">Size: <span>34</span>
+																</div>
+																<div class="basket-slider-price">34AZN</div>
+															</div>
+														</div>
+													</a>
+													<div class="basket-buttons">
+														<a href="basket.html"> <button>Go basket</button></a>
+														<a href="products.html"><button>Back to shopping</button></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="block-menu-bar">
+										<a class="menu-bar menu-toggle" href="#">
+											<span></span>
+											<span></span>
+											<span></span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-nav header-wrap-stick">
+			<div class="header-container">
+				<div class="header-nav-inner header-position">
+					<div class="box-header-nav ecome-menu-wapper">
+						<ul id="menu-primary-menu" class="clone-main-menu ecome-clone-mobile-menu ecome-nav main-menu">
+							<li
+								class="active menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-220 parent parent-megamenu item-megamenu">
+								<a class="ecome-menu-item-title" href="index.html">Ana sehife</a>
+							</li>
+
+							<li
+								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu menu-item-has-children">
+								<a class="ecome-menu-item-title" href="#">Kateqoriyalar<span class="image">
+									</span></a><span class="toggle-submenu"></span>
+								<div class="submenu megamenu">
+									<div class="vc_row wpb_row vc_row-fluid">
+										<div class="wpb_column vc_column_container vc_col-sm-3">
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div
+														class="ecome-custommenu vc_wp_custommenu wpb_content_element   vc_custom_1520523857481 ecome_custom_5aa15a9d8c3a6 vc_custom_1520523857481 vc_custom_1520523857498">
+														<div class="widget widget_nav_menu">
+															<h4 class="widgettitle">Women's Fashion</h4>
+															<div class="menu-shop-layout-container">
+																<ul id="menu-shop-layout" class="menu">
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185">
+																		<a href="products.html">Shop Full Width</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186">
+																		<a href="products.html">Shop Grid v.1</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-187">
+																		<a href="products.html">Shop Grid v.2</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-188">
+																		<a href="products.html">Shop List</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189">
+																		<a href="products.html">Shop Left Sidebar</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-190">
+																		<a href="products.html">Shop Right Sidebar</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2698">
+																		<a href="products.html">Shop 5 Column</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2699">
+																		<a href="products.html">Shop 6 Column</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div
+														class="ecome-custommenu vc_wp_custommenu wpb_content_element   ecome_custom_5aa15a9d8c3fc ">
+														<div class="widget widget_nav_menu">
+															<h4 class="widgettitle">Categories</h4>
+															<div class="menu-categories-container">
+																<ul id="menu-categories" class="menu">
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191">
+																		<a href="products.html">Categories Full
+																			Width</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-192">
+																		<a href="products.html">Categories Left
+																			Sidebar</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-193">
+																		<a href="products.html">Categories Right
+																			Sidebar</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="wpb_column vc_column_container vc_col-sm-3">
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div
+														class="ecome-custommenu vc_wp_custommenu wpb_content_element   ecome_custom_5aa15a9d8c449 ">
+														<div class="widget widget_nav_menu">
+															<h4 class="widgettitle">Single Product Type</h4>
+															<div class="menu-single-product-type-container">
+																<ul id="menu-single-product-type" class="menu">
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-194">
+																		<a href="products.html">Buy Together</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3082">
+																		<a href="products.html">Add To Cart Sticky</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-195">
+																		<a href="products.html">Pin Product</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-196">
+																		<a href="products.html">360 Degree</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-197">
+																		<a href="products.html">Featured video</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199">
+																		<a href="products.html">Simple</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-200">
+																		<a href="products.html">Variable</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-201">
+																		<a href="products.html">External/ Affiliate</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202">
+																		<a href="products.html">Grouped</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-203">
+																		<a href="products.html">Out of Stock</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-204">
+																		<a href="products.html">On Sale</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="wpb_column vc_column_container vc_col-sm-3 ecome_custom_5aa15a9d8c494">
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div
+														class="ecome-custommenu vc_wp_custommenu wpb_content_element   vc_custom_1520523934156 ecome_custom_5aa15a9d8c4de vc_custom_1520523934156">
+														<div class="widget widget_nav_menu">
+															<h4 class="widgettitle">Single Product Layout</h4>
+															<div class="menu-single-product-layout-container">
+																<ul id="menu-single-product-layout" class="menu">
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-205">
+																		<a href="products.html">Product Extended</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-724">
+																		<a href="products.html">Product No Sidebar</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-206">
+																		<a href="products.html">ProductLeft Sidebar</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-207">
+																		<a href="products.html">Product Right
+																			Sidebar</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div
+														class="ecome-custommenu vc_wp_custommenu wpb_content_element   ecome_custom_5aa15a9d8c529 ">
+														<div class="widget widget_nav_menu">
+															<h4 class="widgettitle">Other Pages</h4>
+															<div class="menu-other-pages-container">
+																<ul id="menu-other-pages" class="menu">
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2608">
+																		<a href="shop/index.html">Shop</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2609">
+																		<a href="cart/index.html">Cart</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2610">
+																		<a href="wishlist/index.html">Wishlist</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2611">
+																		<a href="checkout/index.html">Checkout</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2612">
+																		<a href="my-account/index.html">My Account</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="wpb_column vc_column_container vc_col-sm-3">
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div
+														class="wpb_single_image wpb_content_element vc_align_left ecome_custom_5b9b5dc1d3fa5">
+														<figure class="wpb_wrapper vc_figure"> <a href="index.html"
+																target="_self"
+																class="vc_single_image-wrapper   vc_box_border_grey effect plus-zoom ">
+																<figure>
+																	<img width="233" height="182"
+																		class="vc_single_image-img attachment-full lazy"
+																		alt="" loading="lazy"
+																		src="./assets/images/totem/index/jordan.png" />
+																</figure>
+															</a>
+														</figure>
+													</div>
+												</div>
+											</div>
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div
+														class="wpb_single_image wpb_content_element vc_align_left ecome_custom_5b9b5dc1d3fa5">
+														<figure class="wpb_wrapper vc_figure">
+															<a href="index.html" target="_self"
+																class="vc_single_image-wrapper   vc_box_border_grey effect plus-zoom ">
+																<figure>
+																	<img width="233" height="182"
+																		class="vc_single_image-img attachment-full lazy"
+																		alt="" loading="lazy"
+																		src="./assets/images/totem/index/h1.png" />
+																</figure>
+															</a>
+														</figure>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li
+								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu">
+								<a class="ecome-menu-item-title" href="kompaniya.html">Kampaniyalar</a>
+							</li>
+
+							<li
+								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu ">
+								<a class="ecome-menu-item-title" href="blog.html">Blog </a>
+							</li>
+							<li
+								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu">
+								<a class="ecome-menu-item-title" href="#">Səhifə yoxdur </a>
+							</li>
+							<li
+								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu">
+								<a class="ecome-menu-item-title" href="#">Səhifə yoxdur</a>
+							</li>
+							<li
+								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu ">
+								<a class="ecome-menu-item-title" href="about.html">About </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- END nav -->
+
+
+
+
+	<!-- Account  -->
+	<section class="my-account-area">
+		<div class="mx-auto details-path-area">
+			<div class="details_path" style="margin-left: 0px !important;">
+				<a href="index.html">Home</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
+				<a href="#">My account</a>
+			</div>
+		</div>
+		<div class="mx-auto details-path-area">
+			<div class="row mt-5">
+				<div class="col-md-3 ">
+					<div class="account-information border mb-5 text-center">
+						<img src="./assets/images/totem/index/product.webp" alt="">
+						<p>E-commerce user</p>
+						<span><i class="far fa-envelope"></i> turkanganbar@mail.ru</span>
+						<p>Customer Code: <span>12548dFVNH</span></p>
+					</div>
+					<div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist"
+						aria-orientation="vertical">
+						<a class="nav-link p-3 shadow active" id="v-pills-home-tab" data-toggle="pill"
+							href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+							<i class="fa fa-gift mr-2"></i>
+							<span class="small">My orders</span></a>
+
+						<a class="nav-link p-3 shadow" id="v-pills-profile-tab" data-toggle="pill"
+							href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+							<i class="fa fa-heart mr-2"></i>
+							<span class="small">Favorites</span></a>
+
+						<a class="nav-link p-3 shadow" id="v-pills-messages-tab" data-toggle="pill"
+							href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+							<i class="fas fa-map-marker-alt mr-2"></i>
+							<span class="small">Special days</span></a>
+
+						<a class="nav-link p-3 shadow" id="v-pills-settings-tab" data-toggle="pill"
+							href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+							<i class="fa fa-check mr-2"></i>
+							<span class="small">Edit Profile</span></a>
+					</div>
+				</div>
+
+
+				<div class="col-md-9 mb-5">
+					<!-- Tabs content -->
+					<div class="tab-content" id="v-pills-tabContent p-0 mb-5">
+						<div class="tab-pane fade rounded bg-white show active" id="v-pills-home" role="tabpanel"
+							aria-labelledby="v-pills-home-tab">
+							<div class="tab-header">
+								<h3>My orders</h3>
+							</div>
+							<div class="all-orders">
+								<p class="no-order" style="display: none;">There is no order</p>
+								<div class="row mt-5">
+									<div class="col-lg-12 mx-auto">
+										<div class="card rounded shadow border-0">
+											<div class="card-body  bg-white rounded">
+												<div class="table-responsive">
+													<table id="example" style="width:100%"
+														class="table table-striped table-bordered">
+														<thead>
+															<tr>
+																<th>Order №</th>
+																<th>Product</th>
+																<th>Order date</th>
+																<th>Price</th>
+																<th>Status</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>Tiger Nixon</td>
+																<td>System Architect</td>
+																<td>2011/04/25</td>
+																<td>61</td>
+																<td>Completed</td>
+
+															</tr>
+															<tr>
+																<td>Garrett Winters</td>
+																<td>Accountant</td>
+																<td>2011/07/25</td>
+																<td>63</td>
+																<td>Not Completed</td>
+															</tr>
+															<tr>
+																<td>Ashton Cox</td>
+																<td>Junior Technical Author</td>
+																<td>2009/01/12</td>
+																<td>66</td>
+																<td>Completed</td>
+
+															</tr>
+															<tr>
+																<td>Cedric Kelly</td>
+																<td>Senior Javascript Developer</td>
+																<td>Edinburgh</td>
+																<td>22</td>
+																<td>2012/03/29</td>
+
+															</tr>
+															<tr>
+																<td>Airi Satou</td>
+																<td>Accountant</td>
+																<td>2008/11/28</td>
+																<td>33</td>
+																<td>Tokyo</td>
+
+															</tr>
+															<tr>
+																<td>Brielle Williamson</td>
+																<td>Integration Specialist</td>
+																<td>New York</td>
+																<td>61</td>
+																<td>2012/12/02</td>
+
+															</tr>
+															<tr>
+																<td>Herrod Chandler</td>
+																<td>Sales Assistant</td>
+																<td>2012/08/06</td>
+																<td>San Francisco</td>
+																<td>Not completed</td>
+															</tr>
+															<tr>
+																<td>Rhona Davidson</td>
+																<td>Integration Specialist</td>
+																<td>Tokyo</td>
+																<td>55</td>
+																<td>2010/10/14</td>
+
+															</tr>
+															<tr>
+																<td>Colleen Hurst</td>
+																<td>Javascript Developer</td>
+																<td>San Francisco</td>
+																<td>39</td>
+																<td>2009/09/15</td>
+
+															</tr>
+															<tr>
+																<td>Sonya Frost</td>
+																<td>Software Engineer</td>
+																<td>Edinburgh</td>
+																<td>23</td>
+																<td>2008/12/13</td>
+															</tr>
+															<tr>
+																<td>Jena Gaines</td>
+																<td>Office Manager</td>
+																<td>London</td>
+																<td>30</td>
+																<td>2008/12/19</td>
+															</tr>
+															<tr>
+																<td>Quinn Flynn</td>
+																<td>Support Lead</td>
+																<td>Edinburgh</td>
+																<td>22</td>
+																<td>2013/03/03</td>
+															</tr>
+															<tr>
+																<td>Charde Marshall</td>
+																<td>Regional Director</td>
+																<td>San Francisco</td>
+																<td>36</td>
+																<td>2008/10/16</td>
+															</tr>
+															<tr>
+																<td>Haley Kennedy</td>
+																<td>Senior Marketing Designer</td>
+																<td>London</td>
+																<td>43</td>
+																<td>2012/12/18</td>
+
+															</tr>
+															<tr>
+																<td>Tatyana Fitzpatrick</td>
+																<td>Regional Director</td>
+																<td>London</td>
+																<td>19</td>
+																<td>2010/03/17</td>
+															</tr>
+															<tr>
+																<td>Michael Silva</td>
+																<td>Marketing Designer</td>
+																<td>London</td>
+																<td>66</td>
+																<td>2012/11/27</td>
+															</tr>
+															<tr>
+																<td>Paul Byrd</td>
+																<td>Chief Financial Officer (CFO)</td>
+																<td>New York</td>
+																<td>64</td>
+																<td>2010/06/09</td>
+
+															</tr>
+															<tr>
+																<td>Gloria Little</td>
+																<td>Systems Administrator</td>
+																<td>New York</td>
+																<td>59</td>
+																<td>2009/04/10</td>
+
+															</tr>
+															<tr>
+																<td>Bradley Greer</td>
+																<td>Software Engineer</td>
+																<td>London</td>
+																<td>41</td>
+																<td>2012/10/13</td>
+
+															</tr>
+															<tr>
+																<td>Dai Rios</td>
+																<td>Personnel Lead</td>
+																<td>Edinburgh</td>
+																<td>35</td>
+																<td>2012/09/26</td>
+															</tr>
+															<tr>
+																<td>Jenette Caldwell</td>
+																<td>Development Lead</td>
+																<td>New York</td>
+																<td>30</td>
+																<td>2011/09/03</td>
+
+															</tr>
+															<tr>
+																<td>Yuri Berry</td>
+																<td>Chief Marketing Officer (CMO)</td>
+																<td>New York</td>
+																<td>40</td>
+																<td>2009/06/25</td>
+
+															</tr>
+															<tr>
+																<td>Caesar Vance</td>
+																<td>Pre-Sales Support</td>
+																<td>New York</td>
+																<td>21</td>
+																<td>2011/12/12</td>
+
+															</tr>
+															<tr>
+																<td>Doris Wilder</td>
+																<td>Sales Assistant</td>
+																<td>Sidney</td>
+																<td>23</td>
+																<td>2010/09/20</td>
+
+															</tr>
+															<tr>
+																<td>Angelica Ramos</td>
+																<td>Chief Executive Officer (CEO)</td>
+																<td>London</td>
+																<td>47</td>
+																<td>2009/10/09</td>
+
+															</tr>
+															<tr>
+																<td>Gavin Joyce</td>
+																<td>Developer</td>
+																<td>Edinburgh</td>
+																<td>42</td>
+																<td>2010/12/22</td>
+
+															</tr>
+															<tr>
+																<td>Jennifer Chang</td>
+																<td>Regional Director</td>
+																<td>Singapore</td>
+																<td>28</td>
+																<td>2010/11/14</td>
+
+															</tr>
+															<tr>
+																<td>Brenden Wagner</td>
+																<td>Software Engineer</td>
+																<td>San Francisco</td>
+																<td>28</td>
+																<td>2011/06/07</td>
+
+															</tr>
+															<tr>
+																<td>Fiona Green</td>
+																<td>Chief Operating Officer (COO)</td>
+																<td>San Francisco</td>
+																<td>48</td>
+																<td>2010/03/11</td>
+
+															</tr>
+															<tr>
+																<td>Shou Itou</td>
+																<td>Regional Marketing</td>
+																<td>Tokyo</td>
+																<td>20</td>
+																<td>2011/08/14</td>
+
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+						</div>
+
+						<div class="tab-pane fade rounded bg-white" id="v-pills-profile" role="tabpanel"
+							aria-labelledby="v-pills-profile-tab">
+							<div class="tab-header">
+								<h3>My Favorites</h3>
+							</div>
+							<div class="col-lg-12">
+								<div class="features_items" style="border:none !important">
+									<div class="container">
+										<div class="row justify-content-between stick">
+
+											<div class="col-lg-12 col-md-12 features_products">
+												<div class="features_items">
+													<div class="d-flex flex-wrap">
+														<div class="col-md-4 col-sm-6 col-xs-6 text-center mt-5">
+															<div class="single-product">
+																<a href="details.html">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 col-xs-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class=" col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox">
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+														<div class="col-md-4 col-sm-6 text-center mt-5">
+															<div class="single-product">
+																<a href="#">
+																	<div class="single-img">
+																		<img
+																			src="./assets/images/totem/index/product.webp">
+																		<div class="fav">
+																			<label>
+																				<input type="checkbox"
+																					class="fav-checkbox" checked>
+																				<svg id="heart-svg"
+																					viewBox="467 392 58 57">
+																					<g id="Group" fill="none"
+																						fill-rule="evenodd"
+																						transform="translate(467 392)">
+																						<path
+																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
+																							id="heart" fill="#bfc9cf">
+																						</path>
+																						<circle id="main-circ"
+																							fill="#E2264D" opacity="0"
+																							cx="29.5" cy="29.5" r="1.5">
+																						</circle>
+
+																						<g id="grp7" opacity="0"
+																							transform="translate(7 6)">
+																							<circle id="oval1"
+																								fill="#9CD8C3" cx="2"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#8CE8C3" cx="5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp6" opacity="0"
+																							transform="translate(0 28)">
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="3"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp3" opacity="0"
+																							transform="translate(52 28)">
+																							<circle id="oval2"
+																								fill="#9CD8C3" cx="2"
+																								cy="7" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#8CE8C3" cx="4"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp2" opacity="0"
+																							transform="translate(44 6)">
+																							<circle id="oval2"
+																								fill="#CC8EF5" cx="5"
+																								cy="6" r="2">
+																							</circle>
+																							<circle id="oval1"
+																								fill="#CC8EF5" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp5" opacity="0"
+																							transform="translate(14 50)">
+																							<circle id="oval1"
+																								fill="#91D2FA" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#91D2FA" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp4" opacity="0"
+																							transform="translate(35 50)">
+																							<circle id="oval1"
+																								fill="#F48EA7" cx="6"
+																								cy="5" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#F48EA7" cx="2"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+
+																						<g id="grp1" opacity="0"
+																							transform="translate(24)">
+																							<circle id="oval1"
+																								fill="#9FC7FA" cx="2.5"
+																								cy="3" r="2">
+																							</circle>
+																							<circle id="oval2"
+																								fill="#9FC7FA" cx="7.5"
+																								cy="2" r="2">
+																							</circle>
+																						</g>
+																					</g>
+																				</svg>
+																			</label>
+																		</div>
+																		<div class="view-item">
+																			Bax
+																		</div>
+																	</div>
+																	<div class="categ-name">
+																		<p>Butun kateqoriyalar</p>
+																	</div>
+																	<div class="item-name">
+																		<p>White t-shirt with animal</p>
+																	</div>
+																	<div class="products-price">
+																		<div class="item_price">
+																			<p>50AZN</p>
+																		</div>
+																		<div class="item_previous_price">70AZN</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade rounded bg-white" id="v-pills-messages" role="tabpanel"
+							aria-labelledby="v-pills-messages-tab">
+							<div class="tab-header">
+								<h3>Adress</h3>
+							</div>
+							<button class="col-md-4 add-adress" type="button" data-toggle="modal" data-target="#date">
+								<p><i class="fas fa-calendar"></i> </p>
+								<p>+ Add special day</p>
+							</button>
+
+							<div
+								class="container d-md-flex d-sm-block justify-content-between p-0 special-day flex-wrap">
+								<div class="mt-4 my-single-date">
+									<div>
+										<div class="container d-flex justify-content-between align-items-center p-0">
+											<span style="color: rgb(78, 78, 78); font-size: 19px;">Special Day</span>
+											<i class="fa fa-times"></i>
+										</div>
+										<div class="mt-2"> <i class="fas fa-calendar mr-1"></i> 20-17-2021</div>
+										<div
+											class="container d-flex justify-content-between align-items-center p-0 pt-2">
+											<span class="my-full-address" style="font-size: 13px; color: gray;">
+												Read
+												reviews, compare customer
+												ratings, see
+												screenshots, and learn more about Google Translate. Download Google
+												Translate and enjoy it on your
+												iPhone</span>
+										</div>
+									</div>
+								</div>
+								<div class="mt-4 my-single-date">
+									<div>
+										<div class="container d-flex justify-content-between align-items-center p-0">
+											<span style="color: rgb(78, 78, 78); font-size: 19px;">Special Day</span>
+											<i class="fa fa-times"></i>
+
+										</div>
+										<div class="mt-2"> <i class="fas fa-calendar mr-1"></i> 20-17-2021</div>
+										<div
+											class="container d-flex justify-content-between align-items-center p-0 pt-2">
+											<span style="font-size: 13px; color: gray;"> Read reviews, compare customer
+												ratings, see and enjoy
+												it on your
+												iPhone</span>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+
+
+							<div class="container">
+								<!-- The Modal -->
+								<div class="modal fade" data-backdrop="static" id="date">
+									<div class="modal-dialog modal-md">
+										<div class="modal-content">
+
+											<!-- Modal Header -->
+											<div class="modal-header">
+												<h4 class="modal-title">Add Special Day</h4>
+												<button type="button" class="close"
+													data-dismiss="modal">&times;</button>
+											</div>
+
+											<!-- Modal body -->
+											<div class="modal-body">
+												<div>
+													<div class="row">
+														<div class="col-md-12">
+															<label>Add Date</label><br>
+															<input class="form-control" type="date" value=""
+																placeholder="Select date">
+														</div>
+
+													</div>
+
+												</div>
+												<div class="row mt-4">
+													<div class="col-md-12 add-country">
+														<label for="country">Special Day</label>
+														<input class="form-control" type="text"
+															placeholder="Wedding Anniversary">
+													</div>
+												</div>
+											</div>
+											<!-- Modal footer -->
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary save-date"
+													data-dismiss="modal">Save</button>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="tab-pane fade shadow rounded bg-white" id="v-pills-settings" role="tabpanel"
+							aria-labelledby="v-pills-settings-tab">
+							<div class="tab-header">
+								<h3>Edit Profile</h3>
+							</div>
+
+							<div class="container rounded bg-white mt-5">
+								<div class="row">
+									<div class="col-md-7 border-right">
+										<div class="user-information  p-3 py-5">
+											<div class="d-flex justify-content-between align-items-center mb-3">
+												<h4 class="text-right">User Information</h4>
+											</div>
+											<div class="row mt-2">
+												<div class="col-md-6"><label class="labels">Name</label><input
+														type="text" class="form-control" placeholder="Name" value="">
+												</div>
+												<div class="col-md-6"><label class="labels">Surname</label><input
+														type="text" class="form-control" value="" placeholder="Surname">
+												</div>
+											</div>
+											<div class="row mt-3">
+												<div class="col-md-12 mb-3"><label class="labels">Phone
+														Number</label><input type="text" class="form-control"
+														placeholder="Enter phone number" value="">
+												</div>
+												<div class="col-md-12 mb-3"><label class="labels">Address</label><input
+														type="text" class="form-control" placeholder="Enter address"
+														value="">
+												</div>
+												<div class="col-md-12 mb-3"><label class="labels">Email</label>
+													<input type="text" class="form-control" placeholder="Enter email"
+														value="">
+												</div>
+												<div class="col-md-12 mb-2 mt-1 d-flex">
+													<label class="mr-2">
+														<input type="radio" value="" name="gender">
+														Kisi
+													</label>
+													<label>
+														<input type="radio" value="" name="gender">
+														Qadin
+													</label>
+												</div>
+												<div class="col-md-12 "><label class="labels">Birthday</label>
+													<input type="date" class="form-control" placeholder="Birthday"
+														value="">
+												</div>
+											</div>
+
+											<div class="mt-4 text-center"><button
+													class="btn btn-warning profile-button form-control"
+													type="button">Save Profile</button>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-5 change-password">
+										<div class="p-3 py-5">
+											<div class="d-flex justify-content-between align-items-center mb-3">
+												<h4>Change Password</h4>
+											</div>
+											<div class="row mt-3">
+												<div class="col-md-12 mb-3">
+													<label class="labels">Current Password</label>
+													<input type="password" class="form-control password"
+														placeholder="Current password" value="">
+													<span class="eye">
+														<i class="fa fa-eye" aria-hidden="true" data-seen="0"
+															onclick="$(this).toggle()"></i>
+													</span>
+												</div>
+												<div class="col-md-12">
+													<label class="labels">New Password</label>
+													<input type="password" class="form-control password"
+														placeholder="New password" value="">
+													<span class="eye">
+														<i class="fa fa-eye" aria-hidden="true" data-seen="0"
+															onclick="$(this).toggle()"></i>
+													</span>
+												</div>
+												<div class="col-md-12 mt-4 text-center"><button
+														class="btn btn-warning password-button form-control"
+														type="button">Save Password</button>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer_content container justify-content-center">
+			<div class="row d-flex justify-content-center">
+				<ul class="col-lg-3 col-md-6 col-sm-12 mt-3 footer-logo">
+					<img src="./assets/images/totem/index/1.png" alt="">
+				</ul>
+				<ul class="col-lg-3 col-md-6 col-sm-12 mt-3">
+					<h5>About Us</h5>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Term of Use</a></li>
+					<li><a href="#">Careers of Magazine Shop</a></li>
+					<li><a href="#">Investors' site</a></li>
+				</ul>
+				<ul class="col-lg-3 col-md-6 col-sm-12 mt-3">
+					<h5>Magazine Shop</h5>
+					<li><a href="#">Basket</a></li>
+					<li><a href="#">My orders</a></li>
+					<li><a href="#">My wishlist</a></li>
+					<li><a href="#">My account</a></li>
+				</ul>
+				<ul class="col-lg-3 col-md-6 col-sm-12 mt-3">
+					<h5>Social Media</h5>
+					<div class=" footer_social_media">
+						<div class="d-flex align-items-center">
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="#">
+								<i class="icon-twitter"></i>
+							</a>
+							<a href="#">
+								<i class="icon-instagram"></i>
+							</a>
+							<a href="#">
+								<i class='icon-youtube-play'></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="markup-agency">
+						<h5>Veb sayt <a href="https://www.markup.az/" class="footer-markup">Markup Agency</a> tərəfindən
+							hazırlanıb</h5>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/index.js"></script>
+
+	<script>
+		$.prototype.toggle = function () {
+			var state = $(this).attr('data-seen');
+			if (state == 1) {
+				$(this).parents('.col-md-12').find(".password").attr("type", "password");
+				$(this).parent().css("color", "#7a797e");
+				state = false;
+				$(this).attr('data-seen', 0);
+			}
+			else {
+				$(this).parents('.col-md-12').find(".password").attr("type", "text");
+				$(this).parent().css("color", "#ef3c34");
+				state = true;
+				$(this).attr('data-seen', 1);
+			}
+		}
+	</script>
+
+	<script>
+		var map; //Will contain map object.
+		var marker = false; ////Has the user plotted their location marker?
+
+		//Function called to initialize / create the map.
+		//This is called when the page has loaded.
+		function initMap() {
+
+			//The center location of our map.
+			var centerOfMap = new google.maps.LatLng(40.409264, 49.867092);
+
+			//Map options.
+			var options = {
+				center: centerOfMap, //Set center.
+				zoom: 7 //The zoom value.
+			};
+
+			//Create the map object.
+			map = new google.maps.Map(document.getElementById('map'), options);
+
+			//Listen for any clicks on the map.
+			google.maps.event.addListener(map, 'click', function (event) {
+				//Get the location that the user clicked.
+				var clickedLocation = event.latLng;
+				//If the marker hasn't been added.
+				if (marker === false) {
+					//Create the marker.
+					marker = new google.maps.Marker({
+						position: clickedLocation,
+						map: map,
+						draggable: true //make it draggable
+					});
+					//Listen for drag events!
+					google.maps.event.addListener(marker, 'dragend', function (event) {
+						markerLocation();
+					});
+				} else {
+					//Marker has already been added, so just change its location.
+					marker.setPosition(clickedLocation);
+				}
+				//Get the marker's location.
+				markerLocation();
+			});
+		}
+
+		//This function will get the marker's current location and then add the lat/long
+		//values to our textfields so that we can save the location.
+		function markerLocation() {
+			//Get location.
+			var currentLocation = marker.getPosition();
+			//Add lat and lng values to a field that we can save.
+			document.getElementById('lat').value = currentLocation.lat().toPrecision(9); //latitude
+			document.getElementById('lng').value = currentLocation.lng().toPrecision(9); //longitude
+		}
+
+
+		//Load the map when the page has finished loading.
+		google.maps.event.addDomListener(window, 'load', initMap);
+
+
+		navigator.geolocation.getCurrentPosition(function (position) {
+
+
+			var latitude = position.coords.latitude;
+			var longitude = position.coords.longitude;
+			var infoWindowHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+			var infoWindow = new google.maps.InfoWindow({ map: map, content: infoWindowHTML });
+			var currentLocation = { lat: latitude, lng: longitude };
+			infoWindow.setPosition(currentLocation);
+
+
+		});
+    // var latitude = $('input[name=lat]').val();
+    // var longitude =  $('input[name=lng]').val();
+    // var infoWindowHTML = "Latitude:" + latitude + "<br>Longitude:" + longitude;
+    // var infoWindow = new google.maps.InfoWindow({map: map, content: infoWindowHTML});
+    // var currentLocation = { lat: latitude, lng: longitude };
+    // document.getElementById("btnAction").style.display = 'none';
+
+    // $('input[name=lat]').val(parseFloat($('input[name=lat]').val()).toFixed(7));
+    // $('input[name=lng]').val(parseFloat($('input[name=lng]').val()).toFixed(7));
+	</script>
+
+
+
+
+	<!-- Table JS -->
+	<script>
+		$(function () {
+			$(document).ready(function () {
+				$('#example').DataTable();
+			});
+		});
+
+	</script>
+
+
+	<!-- Delete Address -->
+	<script>
+		$(".my-single-date").on("click", ".fa-times", function () {
+			$(this).parents(".my-single-date").remove()
+
+		})
+	</script>
+
+
+	<script data-minify="1" type='text/javascript'
+		src='wp-content/cache/min/1/wp-content/themes/ecome/assets/js/functions-894dfa62347188b3a8fc691367f610b3.js'
+		id='ecome-script-js' defer></script>
+	<script data-minify="1" type='text/javascript'
+		src='wp-content/cache/min/1/wp-content/themes/ecome/framework/includes/megamenu/js/frontend-43392b2f4b5cabf29b1cf855b12c3b53.js'
+		id='ecome-megamenu-js' defer></script>
+</body>
+
+</html>
