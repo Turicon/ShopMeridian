@@ -206,9 +206,17 @@
 
     <section>
         <div class="main_area">
+            <div class="row d-flex  align-items-center mx-auto">
+                <div class="details_path">
+                    <a href="index.html"><i class="fas fa-home"></i></a> <i class="fa fa-chevron-right"
+                        aria-hidden="true"></i>
+                    <a href="#">Səlahiyyət</a>
+                </div>
+            </div>
+
             <div>
                 <div class="page_title">
-                    <h4>Giris/Qeydiyyat</h4>
+                    <h4>Səlahiyyət</h4>
                 </div>
                 <div class="header-tab">
                     <div class="header-tab-nav">
@@ -216,16 +224,13 @@
                         <div class="nav nav-pills nav-pills-custom" id="v-pills-tab">
                             <a class="nav-link mb-3 active loginB2B" id="v-pills-home-tab" data-toggle="pill"
                                 href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                                <span>Giris</span>
+                                <span>Qeydiyyat </span>
                             </a>
                             <a class="nav-link mb-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                 role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                                <span>Qeydiyyat</span>
-                            </a>
-                            <a class="nav-link mb-3" data-toggle="pill" href="#forget-password" role="tab"
-                                aria-controls="v-pills-profile" aria-selected="false">
                                 <span>Şifreni unutmusan?</span>
                             </a>
+
                         </div>
                     </div>
 
@@ -250,52 +255,16 @@
                                     </label>
                                     <div class="d-flex align-items-center">
                                         <button type="submit">Gonder</button>
-
+                                        <!-- <a class="nav-link forget-tab" id="v-pills-profile-tab" data-toggle="pill"
+                                            href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                            aria-selected="false">
+                                            <span>Şifreni unutmusan?</span>
+                                        </a> -->
                                     </div>
                                 </form>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
-                                <form action="" class="register">
-                                    <label>
-                                        Ad
-                                        <input type="text" placeholder="Ad">
-                                    </label>
-                                    <label>
-                                        Soyad
-                                        <input type="text" placeholder="Soyad">
-                                    </label>
-
-                                    <label>
-                                        E-poçt
-                                        <input type="email" placeholder="E-mail">
-                                    </label>
-                                    <label>
-                                        Nomreniz
-                                        <input type="email" placeholder="Nomreniz">
-                                    </label>
-                                    <label>
-                                        Cinsiyyet
-                                        <select name="Cinsiyet" class="gender-select">
-                                            <option value="0"></option>
-                                            <option value="1">Kadın</option>
-                                            <option value="2">Erkek</option>
-                                        </select>
-                                    </label>
-                                    <label>
-                                        Dogum tarixi
-                                        <input type="date" placeholder="Nomreniz">
-                                    </label>
-                                    <label class="informed">
-                                        <input type="checkbox" required>
-                                        Kompaniyadan haberdar olmak istiyorum <i class="fa fa-asterisk"></i>
-                                    </label>
-                                    <button type="submit">Gonder</button>
-
-                                </form>
-                            </div>
-                            <div class="tab-pane fade" id="forget-password" role="tabpanel"
                                 aria-labelledby="v-pills-profile-tab">
                                 <p>Parolun dəyişdirilməsi üçün nəzarət sətri, eləcə də qeydiyyat məlumatlarınız E-Mail
                                     vasitəsilə sizə göndəriləcək.</p>
@@ -417,7 +386,22 @@
     <script src="assets/js/index.js"></script>
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <script src="assets/js/owl.carousel.js"></script>
+    <script>
+        // $('.forget-tab').click(function () {
+        //     $('.header-tab  .nav-link').each(function () {
+        //         $('.header-tab-nav .nav .nav-link').removeClass('active')
+        //         $(this).addClass('active show')
 
+        //     })
+        // }
+        // )
+        // $('.loginB2B').click(function () {
+        //     $('.forget-tab').removeClass('active show')
+
+        // }
+        // )
+
+    </script>
 </body>
 
 </html>

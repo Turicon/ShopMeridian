@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Home</title>
 </head>
 
@@ -206,111 +207,96 @@
 
     <section>
         <div class="main_area">
+            <div class="row d-flex  align-items-center mx-auto">
+                <div class="details_path">
+                    <a href="index.html"><i class="fas fa-home"></i></a> <i class="fa fa-chevron-right"
+                        aria-hidden="true"></i>
+                    <a href="#">Elaqe</a>
+                </div>
+            </div>
+
             <div>
                 <div class="page_title">
-                    <h4>Giris/Qeydiyyat</h4>
+                    <h4> Elaqe melumatlari</h4>
                 </div>
-                <div class="header-tab">
-                    <div class="header-tab-nav">
-                        <!-- Tabs nav -->
-                        <div class="nav nav-pills nav-pills-custom" id="v-pills-tab">
-                            <a class="nav-link mb-3 active loginB2B" id="v-pills-home-tab" data-toggle="pill"
-                                href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                                <span>Giris</span>
-                            </a>
-                            <a class="nav-link mb-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                                <span>Qeydiyyat</span>
-                            </a>
-                            <a class="nav-link mb-3" data-toggle="pill" href="#forget-password" role="tab"
-                                aria-controls="v-pills-profile" aria-selected="false">
-                                <span>Şifreni unutmusan?</span>
-                            </a>
+                <div class="contact_section">
+                    <div class="contact_info">
+                        <div class="contact_item">
+                            <a href="tel:+6494461709"> <i class="fa fa-phone"></i> +994 51 855 00 00</a>
+                        </div>
+                        <div class="contact_item">
+                            <a href="mailto:lorem@ipsum.com"> <i class="fa fa-envelope"> </i> info@meridian.az</a>
+                        </div>
+                        <div class="contact_item">
+                            <a href=""> <i class="fa fa-map-marker"></i> Bakı ş., Əhməd Cəmil 64/66</a>
+                        </div>
+                        <div class="contact_item">
+                            <a href=""> <i class="fas fa-clock"> </i> İş vaxtları: B.e-Cümə: 09:00-18:00; Şənbə:
+                                09:00-18:00;
+                                Bazar: İstirahət günü</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="map">
+                    <iframe width="100%" height="450"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Rosemont+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+            <div class="contact_form">
+                <div class="col-lg-7 col-md-9 col-sm-12 p-0 mt-3">
+                    <h4>Geri elaqe</h4>
+                    <p>Mesajınızı və əlaqə nömrələrinizi qeyd edin və mütəxəssislərimiz probleminizi həll etmək üçün ən
+                        qısa
+                        müddətdə sizinlə əlaqə saxlayacaqlar.</p>
+                </div>
+                <form action="" >
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-item">
+                                <label>
+                                    <i class="fa fa-user"></i> Adiniz <i class="fa fa-asterisk"></i>
+                                    <input class="form-control" type="text" required>
+                                </label>
+                            </div>
+                            <div class="form-item">
+                                <label>
+                                    <i class="fa fa-envelope"></i> Elektron unvan <i class="fa fa-asterisk"></i>
+                                    <input class="form-control" type="email" required>
+                                </label>
+                            </div>
+                            <div class="form-item">
+                                <label> <i class="fa fa-phone"></i> Elaqe nomreniz</label>
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-md-6 form-item">
+                            <label>
+                                <i class="fa fa-envelope-o"></i> Mektubunuz <i class="fa fa-asterisk"></i>
+                            </label>
+                            <textarea name="" id="" required></textarea>
+                        </div>
+                        <div class="form-item col-md-12">
+                            <label class="agree">
+                                <input type="checkbox" required>
+                                Şəxsi məlumatların işlənməsinə razıyam. <i class="fa fa-asterisk"></i>
+                            </label>
+                        </div>
+                        <div class="form-recaptcha col-md-12">
+                            <label> Avtomatik doldurmadan qoru</label>
+                            <div class="g-recaptcha" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="contact-submit">Gonder</button>
+                            <button type="reset" class="contact-reset">Sifirla</button>
                         </div>
                     </div>
 
 
-                    <div>
-                        <!-- Tabs content -->
-                        <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                aria-labelledby="v-pills-home-tab">
-                                <form action="" class="others">
-                                    <label>
-                                        E-poçt <i class="fa fa-asterisk"></i>
-                                        <input type="email" placeholder="E-mail">
-                                    </label>
-                                    <label>
-                                        Password <i class="fa fa-asterisk"></i>
-                                        <input type="password" placeholder="Password">
-                                    </label>
-                                    <label class="agree">
-                                        <input type="checkbox" required>
-                                        Şəxsi məlumatların işlənməsinə razıyam. <i class="fa fa-asterisk"></i>
-                                    </label>
-                                    <div class="d-flex align-items-center">
-                                        <button type="submit">Gonder</button>
-
-                                    </div>
-                                </form>
-                            </div>
-
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
-                                <form action="" class="register">
-                                    <label>
-                                        Ad
-                                        <input type="text" placeholder="Ad">
-                                    </label>
-                                    <label>
-                                        Soyad
-                                        <input type="text" placeholder="Soyad">
-                                    </label>
-
-                                    <label>
-                                        E-poçt
-                                        <input type="email" placeholder="E-mail">
-                                    </label>
-                                    <label>
-                                        Nomreniz
-                                        <input type="email" placeholder="Nomreniz">
-                                    </label>
-                                    <label>
-                                        Cinsiyyet
-                                        <select name="Cinsiyet" class="gender-select">
-                                            <option value="0"></option>
-                                            <option value="1">Kadın</option>
-                                            <option value="2">Erkek</option>
-                                        </select>
-                                    </label>
-                                    <label>
-                                        Dogum tarixi
-                                        <input type="date" placeholder="Nomreniz">
-                                    </label>
-                                    <label class="informed">
-                                        <input type="checkbox" required>
-                                        Kompaniyadan haberdar olmak istiyorum <i class="fa fa-asterisk"></i>
-                                    </label>
-                                    <button type="submit">Gonder</button>
-
-                                </form>
-                            </div>
-                            <div class="tab-pane fade" id="forget-password" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
-                                <p>Parolun dəyişdirilməsi üçün nəzarət sətri, eləcə də qeydiyyat məlumatlarınız E-Mail
-                                    vasitəsilə sizə göndəriləcək.</p>
-                                <form action="" class="forget">
-                                    <label>
-                                        E-poçt
-                                        <input type="email" placeholder="E-mail">
-                                    </label>
-                                    <button type="submit">Gonder</button>
-
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                </form>
             </div>
         </div>
     </section>

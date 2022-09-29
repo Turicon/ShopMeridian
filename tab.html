@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+.nav-pills-custom .nav-link {
+    color: #aaa;
+    background: #fff;
+    position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #45b649;
+    background: #fff;
+}
+
+/* @media (min-width: 992px) { */
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+/* } */
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
+
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*/
+
+
+</style>
+<body>
+    <!-- Demo header-->
+<section class="header">
+    <div class="container">
+        <header class="text-center mb-5 pb-5 text-white">
+            <h1 class="display-4">Bootstrap vertical tabs</h1>
+            <p class="font-italic mb-1">Making advantage of Bootstrap 4 components, easily build an awesome tabbed interface.</p>
+            <p class="font-italic">Snippet by
+                <a class="text-white" href="https://bootstrapious.com/">
+                    <u>Bootstrapious</u>
+                </a>
+            </p>
+        </header>
+
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Tabs nav -->
+                <!-- <div style="width:200px; height: 200px; background-color: red;"></div> -->
+                <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                        <i class="fa fa-user-circle-o mr-2"></i>
+                        <span class="font-weight-bold small text-uppercase">Personal information</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                        <i class="fa fa-calendar-minus-o mr-2"></i>
+                        <span class="font-weight-bold small text-uppercase">Bookings</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                        <i class="fa fa-star mr-2"></i>
+                        <span class="font-weight-bold small text-uppercase">Reviews</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                        <i class="fa fa-check mr-2"></i>
+                        <span class="font-weight-bold small text-uppercase">Confirm booking</span></a>
+                    </div>
+            </div>
+
+
+            <div class="col-md-9">
+                <!-- Tabs content -->
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <h4 class="font-italic mb-4">Personal information</h4>
+                        <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <h4 class="font-italic mb-4">Bookings</h4>
+                        <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <h4 class="font-italic mb-4">Reviews</h4>
+                        <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <h4 class="font-italic mb-4">Confirm booking</h4>
+                        <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis laborum quidem consectetur minus temporibus a amet officiis placeat, aliquid magnam repellat distinctio saepe corrupti necessitatibus, nihil ad nesciunt nam quia? Cumque hic totam deserunt, quia reiciendis nostrum, adipisci temporibus culpa nemo quod perspiciatis accusantium dolor vero nisi dolorem nulla? Maiores aspernatur eos quo nihil. Omnis esse natus ipsum quam molestiae molestias accusantium tempora illum dolore doloribus earum accusamus facilis a sint, excepturi quisquam eaque, commodi quidem. Voluptate aperiam excepturi dolor voluptates repellendus iure sunt quos dolores sed debitis. Distinctio odio, ex cum nihil quibusdam corporis ratione qui ipsa numquam voluptatem!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos suscipit asperiores numquam possimus beatae commodi dicta. Expedita ullam labore ad dolores mollitia sapiente quo, eos doloribus necessitatibus molestias minima, ipsam repellat ratione quod. Consequuntur, quisquam. Tenetur vero totam commodi impedit soluta ullam iste mollitia quis, debitis provident laboriosam sapiente exercitationem voluptas et harum neque vitae quisquam. Voluptatibus ad blanditiis nemo ipsum nulla praesentium, eaque tenetur exercitationem officia earum porro similique velit necessitatibus reprehenderit culpa autem doloremque quos magni ratione maxime beatae ea consequatur facere? Accusamus libero, voluptates beatae fuga odit quaerat animi expedita, voluptatem magnam adipisci necessitatibus enim nam optio!Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

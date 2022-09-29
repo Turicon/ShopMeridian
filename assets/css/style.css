@@ -561,7 +561,6 @@ ul {
   top: 60%;
   transform: rotate(-90deg);
   border-radius: 50%;
-  background: #f9c759;
 }
 
 #carousel-wrapper .slick-next {
@@ -570,7 +569,6 @@ ul {
   position: absolute;
   top: 30%;
   transform: rotate(-90deg);
-  background: #f9c759;
   border-radius: 50%;
 }
 
@@ -585,7 +583,7 @@ ul {
 #carousel-wrapper .slick-next:focus {
   color: white;
   outline: none;
-  background: #f9c759;
+  background: transparent
 }
 
 #carousel-wrapper .basket-slider-name {
@@ -606,7 +604,7 @@ ul {
 }
 
 #carousel-wrapper .basket-slider-price {
-  color: #f9c759;
+  color: #003296;
 }
 
 #carousel-wrapper .slick-dotted.slick-slider {
@@ -1710,8 +1708,8 @@ button:focus {
 }
 
 #map {
-  width: 900px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
 }
 
 /* Orders Table CSS */
@@ -7009,32 +7007,334 @@ body.modal-open {
   text-transform: uppercase;
 }
 
+.page_title h4 {
+  display: block;
+  color: #000000;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.catalog_section {
+  margin-top: 30px;
+}
+
+.catalog_item {
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #e7e8ea;
+  border-bottom: none;
+}
+
+.catalog_item:last-child {
+  border-bottom: 1px solid #e7e8ea;
+}
+
+.catalog_item a {
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: block;
+  color: #000000;
+  font-weight: 600;
+}
+
+.catalog_item a:hover {
+  color: #003296;
+}
+
+.contact_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0;
+}
+
+.contact_info .contact_item {
+  width: 24%;
+  margin-bottom: 15px;
+}
+
+.contact_info .contact_item .fas {
+  font-weight: 400 !important;
+}
+
+.contact_info .contact_item i {
+  font-size: 30px;
+  width: 35px;
+  color: gray;
+  margin-right: 10px;
+}
+
+.contact_info .contact_item a {
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.form-item {
+  margin-top: 20px;
+}
+
+.form-item textarea {
+  border: 1px solid #e7e7e7;
+  width: 100%;
+  height: 248px;
+}
+
+.form-item label {
+  display: block;
+  font-size: 15px;
+  color: #555555;
+  font-weight: 500;
+  position: relative;
+}
+
+.form-item label i:nth-child(1) {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #555555;
+}
+
+.form-item input {
+  margin: 10px 0;
+  border: 1px solid #e7e7e7;
+  padding-left: 12px;
+}
+
+.form-item input:focus {
+  margin: 10px 0;
+  border: 1px solid #aaaaaa !important;
+  padding-left: 12px;
+  outline: none;
+}
+
+.form-item textarea:focus,
+.form-item textarea:focus-visible {
+  border: 1px solid #aaaaaa !important;
+  padding-left: 12px;
+  outline: none;
+}
+
+.form-item label i:nth-child(2) {
+  font-size: 8px;
+  color: red;
+  position: absolute;
+  top: 5px;
+}
+
+label.agree {
+  display: inline-block !important;
+}
+ label.agree i {
+  font-size: 8px;
+  color: red;
+  position: absolute;
+  top: 5px;
+  left: inherit;
+  right: -7px;
+}
 
 
 
+.form-item input[type='checkbox'] {
+  display: inline-block;
+  margin-right: 5px;
+}
 
+.form-item span {
+  position: relative;
+}
 
+.form-item span i {
+  font-size: 8px;
+  color: red;
+  position: absolute;
+  top: 1px;
+}
 
+.contact-submit,
+.contact-reset {
+  background-color: #003296;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 12px;
+  width: 200px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
 
+.contact-reset {
+  border: 1px solid #aaaaaa;
+  background-color: #ffffff;
+  color: #000000;
+}
 
+.form-recaptcha {
+  margin: 25px 0;
+}
 
+.form-recaptcha label {
+  font-weight: 600;
+  font-size: 15px;
+}
 
+.contact_form button,
+.contact_form button:focus {
+  outline: none;
+}
 
+.contact_form>h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
 
+.contact_form p {
+  font-size: 15px;
+}
 
+.header-tab .header-tab-nav {
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  padding: 10px 0;
+}
 
+.header-tab .header-tab-nav nav {
+  display: flex;
+}
 
+.header-tab .header-tab-nav .nav-link {
+  padding: 5px 0;
+  margin-right: 15px;
+}
 
+.header-tab .header-tab-nav .nav-pills a {
+  width: auto;
+}
 
+.header-tab .nav-pills-custom .nav-link.active {
+  color: #000000 !important;
+  background: #fff !important;
+  border-bottom: 1px dashed #000;
+  font-weight: 600;
+  border-radius: 0 !important;
+}
 
+.header-tab .nav-pills-custom .nav-link.active span {
+  font-weight: 600 !important;
+}
 
+.header-tab .nav-pills-custom .nav-link span {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500 !important;
+  border-bottom: none
+}
 
+.header-tab .tab-content>.tab-pane {
+  font-size: 15px;
+}
 
+.language .dropdown-menu {
+  min-width: 5rem;
+  padding: 0;
+  font-size: .85rem;
+}
 
+.forget label,
+.forget input,
+.forget button,
+.others label,
+.others input,
+.others button,
+.register label,
+.register input,
+.register button  {
+  display: block;
+}
+.forget label,
+.others label{
+  margin-top: 14px;
+}
+.forget input,
+.forget input:focus,
+.others input,
+.others input:focus,
+.register input,
+.register input:focus,
+.register select,
+.register select:focus
+ {
+  padding: 0 12px;
+  width: 420px;
+  height: 48px;
+  border: 0;
+  background-color: #f3f3f3;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  display: block;
+}
 
+.others input[type='checkbox'] {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
 
+.others label {
+  position: relative;
+}
 
+.others i {
+  position: absolute;
+  top: 5px;
+  font-size: 8px;
+  color: red;
+}
 
+.forget button,
+.forget button:focus,
+.others button,
+.others button:focus,
+.register button,
+.register button:focus  {
+  outline: none;
+  background-color: #003296;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 12px 50px;
+  margin-top: 20px;
+  margin-right: 10p
+}
+
+.forget button:hover {
+  background: #4065b0;
+}
+.register label{
+  margin-top: 15px;
+}
+label.informed input,
+label.informed input:focus{
+  width: auto;
+  height: auto;
+  display: inline;
+}
+label.informed {
+  display: inline-block !important;
+}
+ label.informed i {
+  font-size: 8px;
+  color: red;
+  position: absolute;
+  top: 5px;
+  left: inherit;
+  right: -7px;
+}
 
 
 
@@ -7083,6 +7383,14 @@ body.modal-open {
 }
 
 @media (max-width: 991px) {
+  .contact_info {
+    flex-wrap: wrap;
+  }
+
+  .contact_info .contact_item {
+    width: 48%;
+  }
+
   .basket-summary {
     padding: 30px 50px;
   }
@@ -7269,6 +7577,16 @@ body.modal-open {
 }
 
 @media (max-width: 520px) {
+  .contact_info .contact_item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .contact_info .contact_item i {
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+  }
 
   .general-features,
   .belt {
@@ -7321,7 +7639,16 @@ body.modal-open {
   }
 }
 
+@media (max-width: 475px) {
+
+  .contact-submit,
+  .contact-reset {
+    width: 150px;
+  }
+}
+
 @media (max-width: 450px) {
+
   .basket-summary {
     padding: 30px 20px;
   }
