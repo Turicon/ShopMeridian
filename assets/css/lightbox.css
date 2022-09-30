@@ -1,13 +1,7 @@
 .lightbox {
-
   border: 0;
-
   box-shadow: none;
-
   display: inline-block;
-
-  /* position: relative; */
-
   text-decoration: none;
 
 }
@@ -15,35 +9,22 @@
 
 
 .lightbox-zoom {
-
-  /* background: #fff; */
-
   bottom: 0;
-
   color: #2727a4;
-
   line-height: 1;
-
   padding: .306em .5em;
-
   position: absolute;
-
-  right: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right: 20px;
+  bottom: 20px;
   width: 50px;
   height: 50px;
   z-index: 20000;
-
 }
 
 
 
 .lightbox-no-scroll {
-
   overflow-y: hidden;
-
 }
 
 
@@ -53,46 +34,30 @@
 /* Overlay */
 
 .lightbox-overlay {
-
   background: rgba(17, 17, 17, .8);
-
   bottom: 0;
-
   box-sizing: border-box;
-
   left: 0;
-
   position: fixed;
-
   right: 0;
-
   top: 0;
-
   z-index: 320000000;
-
   overflow: hidden;
-
 }
 
 
 
-  .lightbox-overlay *,
-
-  .lightbox-overlay *::before,
-
-  .lightbox-overlay *::after {
-
-    box-sizing: inherit;
-
-  }
+.lightbox-overlay *,
+.lightbox-overlay *::before,
+.lightbox-overlay *::after {
+  box-sizing: inherit;
+}
 
 
 
-  .lightbox-overlay[aria-hidden="true"] {
-
-    display: none;
-
-  }
+.lightbox-overlay[aria-hidden="true"] {
+  display: none;
+}
 
 
 
@@ -101,25 +66,15 @@
 /* Slider */
 
 .lightbox-slider {
-
   -webkit-transition: left .3s ease, -webkit-transform .3s ease;
-
   bottom: 0;
-
   left: 0;
-
   position: absolute;
-
   right: 0;
-
   top: 0;
-
   transition: left .3s ease, -webkit-transform .3s ease;
-
   transition: left .3s ease, transform .3s ease, -webkit-transform .3s ease;
-
   transition: left .3s ease, transform .3s ease;
-
   white-space: nowrap;
 
 }
@@ -158,49 +113,49 @@
 
 
 
-  .lightbox-content figure {
+.lightbox-content figure {
 
-    position: relative;
+  position: relative;
 
-  }
-
-
-
-    .lightbox-content img {
-
-      /* display: block; */
-
-      height: auto;
-
-      max-height: 85vh;
-
-      max-width: 85vw;
-
-      width: auto;
-
-    }
+}
 
 
 
-    .lightbox-content figcaption {
+.lightbox-content img {
 
-      background: rgba(17, 17, 17, .8);
+  /* display: block; */
 
-      bottom: 0;
+  height: auto;
 
-      color: #fff;
+  max-height: 85vh;
 
-      display: block;
+  max-width: 85vw;
 
-      left: 0;
+  width: auto;
 
-      padding: .25em .5em;
+}
 
-      position: absolute;
 
-      width: 100%;
 
-    }
+.lightbox-content figcaption {
+
+  background: rgba(17, 17, 17, .8);
+
+  bottom: 0;
+
+  color: #fff;
+
+  display: block;
+
+  left: 0;
+
+  padding: .25em .5em;
+
+  position: absolute;
+
+  width: 100%;
+
+}
 
 
 
@@ -244,61 +199,61 @@
 
 
 
-  .lightbox-overlay button:focus {
+.lightbox-overlay button:focus {
 
-    border: 1px solid #fff;
+  border: 1px solid #fff;
 
-    outline: 0;
+  outline: 0;
 
-  }
-
-
-
-  .lightbox-overlay button:disabled {
-
-    cursor: default;
-
-    opacity: .5;
-
-  }
+}
 
 
 
-  .lightbox-overlay button[aria-label="Previous"],
+.lightbox-overlay button:disabled {
 
-  .lightbox-overlay button[aria-label="Next"] {
+  cursor: default;
 
-    top: 50%;
+  opacity: .5;
 
-    top: calc(50% - (1.6em / 2));
-
-  }
+}
 
 
 
-    .lightbox-overlay button[aria-label="Previous"] {
+.lightbox-overlay button[aria-label="Previous"],
 
-      left: 2%;
+.lightbox-overlay button[aria-label="Next"] {
 
-    }
+  top: 50%;
 
+  top: calc(50% - (1.6em / 2));
 
-
-    .lightbox-overlay button[aria-label="Next"] {
-
-      right: 2%;
-
-    }
+}
 
 
 
-  .lightbox-overlay button[aria-label="Close"] {
+.lightbox-overlay button[aria-label="Previous"] {
 
-    top: 1em;
+  left: 2%;
 
-    right: 2%;
+}
 
-  }
+
+
+.lightbox-overlay button[aria-label="Next"] {
+
+  right: 2%;
+
+}
+
+
+
+.lightbox-overlay button[aria-label="Close"] {
+
+  top: 1em;
+
+  right: 2%;
+
+}
 
 
 
@@ -344,33 +299,33 @@
 
 
 
-  .lightbox-loader::before {
+.lightbox-loader::before {
 
-    -webkit-animation: spin 1s infinite;
+  -webkit-animation: spin 1s infinite;
 
-    animation: spin 1s infinite;
+  animation: spin 1s infinite;
 
-    border-radius: 100%;
+  border-radius: 100%;
 
-    border: .5em solid #9f9f9f;
+  border: .5em solid #9f9f9f;
 
-    border-top-color: #2727a4;
+  border-top-color: #2727a4;
 
-    bottom: 0;
+  bottom: 0;
 
-    content: "";
+  content: "";
 
-    left: 0;
+  left: 0;
 
-    position: absolute;
+  position: absolute;
 
-    right: 0;
+  right: 0;
 
-    top: 0;
+  top: 0;
 
-    z-index: 1;
+  z-index: 1;
 
-  }
+}
 
 
 

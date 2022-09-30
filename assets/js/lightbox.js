@@ -568,7 +568,7 @@
           var lightboxZoom = document.createElement("div");
 
           lightboxZoom.classList.add("lightbox-zoom");
-          lightboxZoom.innerHTML = "<img src='./assets/images/about/zoom.png' >"
+          lightboxZoom.innerHTML = "<img src='./assets/images/Casio/zoom.png' >"
 
           element.appendChild(lightboxZoom);
         }

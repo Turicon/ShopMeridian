@@ -3510,12 +3510,6 @@ label .fa-bell {
   border-radius: 50%;
 }
 
-.related-products .slick-prev:focus,
-.related-products .slick-prev:hover,
-.related-products .slick-next:focus,
-.related-products .slick-next:hover {
-  background-color: #f9c759;
-}
 
 .products-price {
   display: flex;
@@ -6493,6 +6487,7 @@ footer .contact ul li {
   border: 1px solid #06a77d;
   border-radius: 10px;
   padding: 2px;
+  margin-right: 40px;
 }
 
 .indirim-oran .inner {
@@ -6510,7 +6505,6 @@ footer .contact ul li {
 
 .details-product-price span {
   display: block;
-  margin-left: 40px;
 }
 
 .in-stock {
