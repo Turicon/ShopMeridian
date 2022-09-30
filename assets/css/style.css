@@ -6270,6 +6270,7 @@ footer .contact ul li {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: -2px;
 }
 
 .stickWhatsapp {
@@ -7291,7 +7292,7 @@ label.agree i {
 
 .others input[type='checkbox'] {
   display: inline-block;
-  width: auto;
+  width: auto !important;
   height: auto;
 }
 
@@ -7332,7 +7333,7 @@ label.agree i {
 
 label.informed input,
 label.informed input:focus {
-  width: auto;
+  width: auto !important;
   height: auto;
   display: inline;
 }
