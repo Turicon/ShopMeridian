@@ -5,16 +5,27 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/all.css">
-	<!-- <script src="assets/js/jquery.min.js"></script> -->
+	<link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+
+	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/all.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
 	<!-- Modal -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/popper.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+
 	<!-- Google Map -->
 	<script async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoj7wSW7HRcqu-C1ewP6zTWWi3Aqzq1sE&callback=initMap"
@@ -26,201 +37,154 @@
 	<script src="assets/js/dataTables.bootstrap4.min.js"></script>
 	<title>E-commerce</title>
 
-	<!-- Navbar  -->
-	<link data-minify="1" rel='stylesheet' id='flaticon-css'
-		href='wp-content/cache/min/1/wp-content/themes/ecome/assets/fonts/flaticon/flaticon-5df575c25b44ceeb262050566cce8b88.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='font-awesome-css'
-		href='wp-content/cache/busting/1/wp-content/themes/ecome/assets/css/font-awesome.min-1.5.8.css' type='text/css'
-		media='all' />
 
-	<link data-minify="1" rel='stylesheet' id='ecome-style-css'
-		href='wp-content/cache/min/1/wp-content/themes/ecome/assets/css/style-b8c696eb60aefa39cecd3b0469a35df5.css'
-		type='text/css' media='all' />
-
-	<link data-minify="1" rel='stylesheet' id='ecome-megamenu-css'
-		href='wp-content/cache/min/1/wp-content/themes/ecome/framework/includes/megamenu/css/frontend-bd4d18583d0ca302aca614aa019ec13e.css'
-		type='text/css' media='all' />
-
-	<link rel='stylesheet' id='js_composer_front-css'
-		href='wp-content/cache/busting/1/wp-content/plugins/js_composer/assets/css/js_composer.min-6.6.0.css'
-		type='text/css' media='all' />
-
-
-	<script type='text/javascript' src='wp-content/cache/busting/1/wp-includes/js/jquery/jquery.min-3.5.1.js'
-		id='jquery-core-js'></script>
-	<script type='text/javascript' src='wp-content/cache/busting/1/wp-includes/js/jquery/jquery-migrate.min-3.3.2.js'
-		id='jquery-migrate-js' defer></script>
 </head>
-<body>
-	<div onclick="topFunction()" id="goTop">
-		<img src="./assets/images/totem/index/1.png" alt="">
-		<a href="https://wa.me/0552405340"><i class="fa fa-whatsapp"></i></a>
-	</div>
-	<header id="header" class="header style1 header-sticky">
-		<div class="header-top">
-			<div class="header-container">
-				<div class="header-top-inner">
-					<ul id="menu-top-left-menu" class="ecome-nav top-bar-menu">
-						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-								class="ecome-menu-item-title" href="#">Add anything here or just remove it...</a></li>
-					</ul>
-					<ul id="menu-top-right-menu" class="ecome-nav top-bar-menu right">
-						<li class="menu-item ecome-dropdown block-language">
-							<a href="index.html" data-ecome="ecome-dropdown">
-								<img src="wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" height="12"
-									alt="en" width="18" /> English </a> <span class="toggle-submenu"></span>
-							<ul class="sub-menu">
-								<li class="menu-item">
-									<a href="indexcf53.html?lang=it">
-										<img src="wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png"
-											height="12" alt="it" width="18" /> Italiano </a>
-								</li>
-							</ul>
-						</li>
-						<li class="menu-item menu-item-type-custom menu-item-object-custom">
-							<a class="ecome-menu-item-title" href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-								class="ecome-menu-item-title" href="#"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li id="menu-item-226" class="menu-item menu-item-type-custom menu-item-object-custom">
-							<a class="ecome-menu-item-title" href="#"><i class="fa fa-instagram"></i></a>
-						</li>
-						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-								class="ecome-menu-item-title" href="#"><i class="fab fa-youtube"></i></a>
-						</li>
 
-					</ul>
+<body>
+
+	<div onclick="topFunction()" id="goTop">
+		<svg class="cloudflare-icon" viewBox="0 0 256 256" version="1.1" style="fill: rgba(135, 135, 135, 0.9);">
+			<path
+				d="M83.5244052,130.453237 L129.059785,84.9178576 L174.595164,130.453237 L144.213452,130.453237 L144.213452,186.792818 L113.896389,186.792818 L113.896389,130.453237 L83.5244052,130.453237 Z M64.431707,68.715835 L64.431707,75.0983746 L193.678134,75.0983746 L193.678134,68.715835 L64.431707,68.715835 Z">
+			</path>
+		</svg>
+	</div>
+	<header class="ftco-section">
+		<nav class="header navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+			<div class="main_area">
+				<div class="d-lg-flex justify-content-between w-100">
+					<div class="d-flex justify-content-between header-right">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header"
+							aria-controls="header" aria-expanded="false" aria-label="Toggle navigation"></button>
+						<div class="d-flex">
+							<!-- <li class="nav-item">
+								<a class="nav-link" href="#">на русском</a>
+							</li> -->
+							<li class="nav-item dropdown language">
+								<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+									aria-haspopup="true" aria-expanded="false">на русском</a>
+								<div class="dropdown-menu" aria-labelledby="dropdown04">
+									<a class="dropdown-item" href="#">Aze</a>
+									<a class="dropdown-item" href="#">Eng</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="sign.html">Girish</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="B2B.html">B2B</a></li>
+						</div>
+					</div>
+					<div class="collapse navbar-collapse header-left" id="header">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a href="index.html" class="nav-link">Ana sehife</a>
+							</li>
+							<li class="nav-item">
+								<a href="catalog.html" class="nav-link">Kataloq</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="header-tab.html">Nece almaq olar</a>
+							</li>
+							<li class="nav-item">
+								<a href="header-tab.html" class="nav-link">Catdirilma</a>
+							</li>
+							<li class="nav-item">
+								<a href="header-tab.html" class="nav-link">Zemanet</a>
+							</li>
+							<li class="nav-item">
+								<a href="header-tab.html" class="nav-link">Sirket haqqinda</a>
+							</li>
+							<li class="nav-item"><a href="contact.html" class="nav-link">Elaqe</a></li>
+
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="header-middle" id="header-middle">
-			<div class="header-container">
-				<div class="header-middle-inner">
-					<div class="logo d-md-block">
-						<a href="index.html"> <img alt="Ecome" src="./assets/images/totem/index/logoelab.png"
-								class="_rw" /></a>
-					</div>
-					<div class="block-search">
-						<form role="search" class="form-search block-search ecome-live-search-form">
-							<div class="form-content search-box results-search">
-								<div class="inner">
-									<input autocomplete="off" type="text" class="searchfield txt-livesearch input"
-										name="s" value="" placeholder="Axtar...">
+		</nav>
+
+		<div class="header-middle">
+			<div class="main_area">
+				<div class="row justify-content-start align-items-center">
+					<a class="navbar-brand col-lg-4 col-md-12 p-0" href="index.html"><img
+							src="assets/images/Casio/logo.png" alt="" /></a>
+					<div class="row justify-content-start align-items-center col-lg-8 col-md-12 mt-3">
+						<div class="col-lg-9 col-xs-9">
+							<form action="#" class="searchform">
+								<div class="form-group d-flex">
+									<input type="text" class="form-control pl-3" placeholder="Search" />
+									<button type="submit" placeholder="" class="form-control search">
+										<span class="fa fa-search"></span>
+									</button>
 								</div>
-							</div>
-							<input type="hidden" name="post_type" value="product" />
-							<input type="hidden" name="taxonomy" value="product_cat">
-							<button type="submit" class="btn-submit">
-								<span class="fa fa-search" aria-hidden="true"></span>
-							</button>
-						</form>
-					</div>
-					<div class="header-control">
-						<div class="header-control-inner">
-							<div class="meta-woo">
-								<div class="mobile-logo d-sm-block d-md-none">
-									<a href="index.html"> <img alt="Ecome"
-											src="./assets/images/totem/index/logoelab.png" class="_rw"></a>
-								</div>
-								<div class="d-flex justify-content-between w-100">
-									<div class="account-navigation">
-										<div class="menu-item block-user ecome-dropdown">
-											<div>
-												<a class="woo-wishlist-link" href="sign.html">
-													<span class="flaticon-profile"></span></a>
-											</div>
-											<div class="login-dropdown">
-												<div class="loggedin">
-													<div class="user-loggedin-container">
-														<p class="user-name">johnwalker@gamil.com</p>
-														<a href="account.html" class="loggedin-account-item">
-															<i class="fa fa-gift"></i>
-															<p>My orders</p>
-														</a>
-														<a href="account.html" class="loggedin-account-item">
-															<i class="flaticon-heart-shape-outline"></i>
-															<p>My favorites</p>
-														</a>
-														<a href="account.html" class="loggedin-account-item">
-															<i class="fa fa-calendar"></i>
-															<p>Special days</p>
-														</a>
-														<a href="account.html" class="loggedin-account-item">
-															<i class="fa fa-edit"></i>
-															<p>Edit profile</p>
-														</a>
-														<a href="account.html" class="loggedin-account-item">
-															<i class="fa fa-sign-out"></i>
-															<p>Log out</p>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="block-wishlist">
-											<a class="woo-wishlist-link" href="account.html">
-												<span class="flaticon-heart-shape-outline"></span>
-											</a>
-										</div>
-										<div class="block-minicart ecome-mini-cart ecome-dropdown">
-											<div class="shopcart-dropdown block-cart-link" data-ecome="ecome-dropdown">
-												<a class="link-dropdown" href="basket.html">
-													<span class="flaticon-online-shopping-cart">
-														<span class="count">0</span>
-													</span>
+							</form>
+						</div>
+
+						<div class="col-lg-3 col-xs-3">
+							<div class="">
+								<div class="">
+									<div class="row justify-content-between align-items-center w-100">
+										<div class="account-navigation d-flex justify-content-center w-100">
+											<div class="block-wishlist mr-3">
+												<a class="woo-wishlist-link" href="account.html">
+													<i class="fa fa-heart"></i>
 												</a>
 											</div>
-											<div class="widget woocommerce widget_shopping_cart">
-												<div class="widget_shopping_cart_content">
-													<div class="thereis-noproduct">
-														<p>Your chart is empty</p>
-														<p><span>Look favorites and get shopping!</span></p>
-													</div>
-
-													<a href="#" id="carousel-wrapper" style="display: none;">
-														<div class="basket-items">
-															<div>
-																<img src="assets/images/totem/index/2.jpg">
-																<div class="basket-slider-name">Satin dress white Satin
-																	dress white Satin dress white</div>
-																<div class="basket-slider-size">Size: <span>34</span>
-																</div>
-																<div class="basket-slider-price">34AZN</div>
-															</div>
-															<div>
-																<img src="assets/images/totem/index/2.jpg">
-																<div class="basket-slider-name">Satin dress white Satin
-																	dress white Satin dress white</div>
-																<div class="basket-slider-size">Size: <span>34</span>
-																</div>
-																<div class="basket-slider-price">34AZN</div>
-															</div>
-															<div>
-																<img src="assets/images/totem/index/2.jpg">
-																<div class="basket-slider-name">Satin dress white Satin
-																	dress white Satin dress white</div>
-																<div class="basket-slider-size">Size: <span>34</span>
-																</div>
-																<div class="basket-slider-price">34AZN</div>
-															</div>
-														</div>
+											<div class="block-minicart ecome-mini-cart ecome-dropdown">
+												<div class="shopcart-dropdown block-cart-link"
+													data-ecome="ecome-dropdown">
+													<a class="link-dropdown" href="basket.html">
+														<span class="fa fa-shopping-cart">
+															<span class="count">0</span>
+														</span>
 													</a>
-													<div class="basket-buttons">
-														<a href="basket.html"> <button>Go basket</button></a>
-														<a href="products.html"><button>Back to shopping</button></a>
+												</div>
+												<div class="widget woocommerce widget_shopping_cart">
+													<div class="widget_shopping_cart_content">
+														<div class="thereis-noproduct">
+															<p>Your chart is empty</p>
+															<p>
+																<span>Look favorites and get shopping!</span>
+															</p>
+														</div>
+
+														<a href="#" id="carousel-wrapper" style="display: none">
+															<div class="basket-items">
+																<div>
+																	<img src="assets/images/totem/index/2.jpg" />
+																	<div class="basket-slider-name">
+																		Satin dress white Satin dress white Satin
+																		dress white
+																	</div>
+																	<div class="basket-slider-price">34AZN</div>
+																</div>
+																<div>
+																	<img src="assets/images/totem/index/2.jpg" />
+																	<div class="basket-slider-name">
+																		Satin dress white Satin dress white Satin
+																		dress white
+																	</div>
+																	<div class="basket-slider-price">34AZN</div>
+																</div>
+																<div>
+																	<img src="assets/images/totem/index/2.jpg" />
+																	<div class="basket-slider-name">
+																		Satin dress white Satin dress white Satin
+																		dress white
+																	</div>
+																	<div class="basket-slider-price">34AZN</div>
+																</div>
+															</div>
+														</a>
+														<div class="basket-buttons">
+															<a href="basket.html">
+																<button>Go basket</button></a>
+															<a href="products.html"><button>Back to
+																	shopping</button></a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div>
-									<div class="block-menu-bar">
-										<a class="menu-bar menu-toggle" href="#">
-											<span></span>
-											<span></span>
-											<span></span>
-										</a>
 									</div>
 								</div>
 							</div>
@@ -229,303 +193,46 @@
 				</div>
 			</div>
 		</div>
-		<div class="header-nav header-wrap-stick">
-			<div class="header-container">
-				<div class="header-nav-inner header-position">
-					<div class="box-header-nav ecome-menu-wapper">
-						<ul id="menu-primary-menu" class="clone-main-menu ecome-clone-mobile-menu ecome-nav main-menu">
-							<li
-								class="active menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-220 parent parent-megamenu item-megamenu">
-								<a class="ecome-menu-item-title" href="index.html">Ana sehife</a>
-							</li>
-
-							<li
-								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu menu-item-has-children">
-								<a class="ecome-menu-item-title" href="#">Kateqoriyalar<span class="image">
-									</span></a><span class="toggle-submenu"></span>
-								<div class="submenu megamenu">
-									<div class="vc_row wpb_row vc_row-fluid">
-										<div class="wpb_column vc_column_container vc_col-sm-3">
-											<div class="vc_column-inner">
-												<div class="wpb_wrapper">
-													<div
-														class="ecome-custommenu vc_wp_custommenu wpb_content_element   vc_custom_1520523857481 ecome_custom_5aa15a9d8c3a6 vc_custom_1520523857481 vc_custom_1520523857498">
-														<div class="widget widget_nav_menu">
-															<h4 class="widgettitle">Women's Fashion</h4>
-															<div class="menu-shop-layout-container">
-																<ul id="menu-shop-layout" class="menu">
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185">
-																		<a href="products.html">Shop Full Width</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186">
-																		<a href="products.html">Shop Grid v.1</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-187">
-																		<a href="products.html">Shop Grid v.2</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-188">
-																		<a href="products.html">Shop List</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189">
-																		<a href="products.html">Shop Left Sidebar</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-190">
-																		<a href="products.html">Shop Right Sidebar</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2698">
-																		<a href="products.html">Shop 5 Column</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2699">
-																		<a href="products.html">Shop 6 Column</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div
-														class="ecome-custommenu vc_wp_custommenu wpb_content_element   ecome_custom_5aa15a9d8c3fc ">
-														<div class="widget widget_nav_menu">
-															<h4 class="widgettitle">Categories</h4>
-															<div class="menu-categories-container">
-																<ul id="menu-categories" class="menu">
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191">
-																		<a href="products.html">Categories Full
-																			Width</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-192">
-																		<a href="products.html">Categories Left
-																			Sidebar</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-193">
-																		<a href="products.html">Categories Right
-																			Sidebar</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="wpb_column vc_column_container vc_col-sm-3">
-											<div class="vc_column-inner">
-												<div class="wpb_wrapper">
-													<div
-														class="ecome-custommenu vc_wp_custommenu wpb_content_element   ecome_custom_5aa15a9d8c449 ">
-														<div class="widget widget_nav_menu">
-															<h4 class="widgettitle">Single Product Type</h4>
-															<div class="menu-single-product-type-container">
-																<ul id="menu-single-product-type" class="menu">
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-194">
-																		<a href="products.html">Buy Together</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3082">
-																		<a href="products.html">Add To Cart Sticky</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-195">
-																		<a href="products.html">Pin Product</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-196">
-																		<a href="products.html">360 Degree</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-197">
-																		<a href="products.html">Featured video</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199">
-																		<a href="products.html">Simple</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-200">
-																		<a href="products.html">Variable</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-201">
-																		<a href="products.html">External/ Affiliate</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202">
-																		<a href="products.html">Grouped</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-203">
-																		<a href="products.html">Out of Stock</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-204">
-																		<a href="products.html">On Sale</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div
-											class="wpb_column vc_column_container vc_col-sm-3 ecome_custom_5aa15a9d8c494">
-											<div class="vc_column-inner">
-												<div class="wpb_wrapper">
-													<div
-														class="ecome-custommenu vc_wp_custommenu wpb_content_element   vc_custom_1520523934156 ecome_custom_5aa15a9d8c4de vc_custom_1520523934156">
-														<div class="widget widget_nav_menu">
-															<h4 class="widgettitle">Single Product Layout</h4>
-															<div class="menu-single-product-layout-container">
-																<ul id="menu-single-product-layout" class="menu">
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-205">
-																		<a href="products.html">Product Extended</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-724">
-																		<a href="products.html">Product No Sidebar</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-206">
-																		<a href="products.html">ProductLeft Sidebar</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-207">
-																		<a href="products.html">Product Right
-																			Sidebar</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div
-														class="ecome-custommenu vc_wp_custommenu wpb_content_element   ecome_custom_5aa15a9d8c529 ">
-														<div class="widget widget_nav_menu">
-															<h4 class="widgettitle">Other Pages</h4>
-															<div class="menu-other-pages-container">
-																<ul id="menu-other-pages" class="menu">
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2608">
-																		<a href="shop/index.html">Shop</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2609">
-																		<a href="cart/index.html">Cart</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2610">
-																		<a href="wishlist/index.html">Wishlist</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2611">
-																		<a href="checkout/index.html">Checkout</a>
-																	</li>
-																	<li
-																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2612">
-																		<a href="my-account/index.html">My Account</a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="wpb_column vc_column_container vc_col-sm-3">
-											<div class="vc_column-inner">
-												<div class="wpb_wrapper">
-													<div
-														class="wpb_single_image wpb_content_element vc_align_left ecome_custom_5b9b5dc1d3fa5">
-														<figure class="wpb_wrapper vc_figure"> <a href="index.html"
-																target="_self"
-																class="vc_single_image-wrapper   vc_box_border_grey effect plus-zoom ">
-																<figure>
-																	<img width="233" height="182"
-																		class="vc_single_image-img attachment-full lazy"
-																		alt="" loading="lazy"
-																		src="./assets/images/totem/index/jordan.png" />
-																</figure>
-															</a>
-														</figure>
-													</div>
-												</div>
-											</div>
-											<div class="vc_column-inner">
-												<div class="wpb_wrapper">
-													<div
-														class="wpb_single_image wpb_content_element vc_align_left ecome_custom_5b9b5dc1d3fa5">
-														<figure class="wpb_wrapper vc_figure">
-															<a href="index.html" target="_self"
-																class="vc_single_image-wrapper   vc_box_border_grey effect plus-zoom ">
-																<figure>
-																	<img width="233" height="182"
-																		class="vc_single_image-img attachment-full lazy"
-																		alt="" loading="lazy"
-																		src="./assets/images/totem/index/h1.png" />
-																</figure>
-															</a>
-														</figure>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li
-								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu">
-								<a class="ecome-menu-item-title" href="kompaniya.html">Kampaniyalar</a>
-							</li>
-
-							<li
-								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu ">
-								<a class="ecome-menu-item-title" href="blog.html">Blog </a>
-							</li>
-							<li
-								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu">
-								<a class="ecome-menu-item-title" href="#">Səhifə yoxdur </a>
-							</li>
-							<li
-								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu">
-								<a class="ecome-menu-item-title" href="#">Səhifə yoxdur</a>
-							</li>
-							<li
-								class="menu-item menu-item-type-post_type menu-item-object-megamenu menu-item-221 parent parent-megamenu item-megamenu ">
-								<a class="ecome-menu-item-title" href="about.html">About </a>
-							</li>
-						</ul>
-					</div>
+		<nav class="navbar-catalog navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar"
+			style="background-color: #003296 !important">
+			<div class="main_area">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+					aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<img class="mr-2" src="assets/images/Casio/burgerK.png" alt="" />
+					Kataloq
+				</button>
+				<div class="collapse navbar-collapse" id="ftco-nav">
+					<ul class="navbar-nav m-auto">
+						<li class="nav-item active">
+							<a href="products.html" class="nav-link">G-shock</a>
+						</li>
+						<li class="nav-item"><a href="products.html" class="nav-link">Baby-G</a></li>
+						<li class="nav-item">
+							<a href="products.html" class="nav-link">Pro Trek</a>
+						</li>
+						<li class="nav-item"><a href="products.html" class="nav-link">EdiFice</a></li>
+						<li class="nav-item"><a href="products.html" class="nav-link">Sheen</a></li>
+						<li class="nav-item"><a href="products.html" class="nav-link">General</a></li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 	</header>
 	<!-- END nav -->
-
-
 
 
 	<!-- Account  -->
 	<section class="my-account-area">
 		<div class="mx-auto details-path-area">
-			<div class="details_path" style="margin-left: 0px !important;">
-				<a href="index.html">Home</a><i class="fa fa-chevron-right" aria-hidden="true"></i>
-				<a href="#">My account</a>
+			<div class="details_path">
+				<a href="index.html"><i class="fas fa-home"></i></a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
+				<a href="#">Account</a>
+				
 			</div>
 		</div>
 		<div class="mx-auto details-path-area">
 			<div class="row mt-5">
-				<div class="col-md-3 ">
+				<div class="col-lg-3">
 					<div class="account-information border mb-5 text-center">
 						<img src="./assets/images/totem/index/product.webp" alt="">
 						<p>E-commerce user</p>
@@ -544,11 +251,6 @@
 							<i class="fa fa-heart mr-2"></i>
 							<span class="small">Favorites</span></a>
 
-						<a class="nav-link p-3 shadow" id="v-pills-messages-tab" data-toggle="pill"
-							href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-							<i class="fas fa-map-marker-alt mr-2"></i>
-							<span class="small">Special days</span></a>
-
 						<a class="nav-link p-3 shadow" id="v-pills-settings-tab" data-toggle="pill"
 							href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
 							<i class="fa fa-check mr-2"></i>
@@ -557,7 +259,7 @@
 				</div>
 
 
-				<div class="col-md-9 mb-5">
+				<div class="col-lg-9 mb-5">
 					<!-- Tabs content -->
 					<div class="tab-content" id="v-pills-tabContent p-0 mb-5">
 						<div class="tab-pane fade rounded bg-white show active" id="v-pills-home" role="tabpanel"
@@ -834,1572 +536,348 @@
 							<div class="tab-header">
 								<h3>My Favorites</h3>
 							</div>
-							<div class="col-lg-12">
-								<div class="features_items" style="border:none !important">
-									<div class="container">
-										<div class="row justify-content-between stick">
-
-											<div class="col-lg-12 col-md-12 features_products">
-												<div class="features_items">
-													<div class="d-flex flex-wrap">
-														<div class="col-md-4 col-sm-6 col-xs-6 text-center mt-5">
-															<div class="single-product">
-																<a href="details.html">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
+							<div>
+									<div class="features_items">
+										<div class="d-flex flex-wrap account-fav">
+											<div class="col-lg-4 col-md-4 col-sm-6 text-center mt-5 p-0">
+												<div class="products-area">
+													<div class="products">
+														<a href="#">
+															<img src="assets/images/Casio/new1.jfif" alt="">
+															<div class="desc">
+																<h4>Carbon</h4>
+																<p> MTS-100L-7AVDF Kol Saati Lorem ipsum
+																	dolor sit amet consectetur
+																	adipisicing
+																	elit. Ut non perspiciatis reiciendis
+																	ducimus numquam laudantium vel
+																	ab
+																	nostrum repellat a.</p>
+																<div class="products-price">
+																	<div class="item_previous_price">
+																		7.019,00 ₺</div>
+																	<div class="item_price">
+																		<p>6.317,10 ₺</p>
 																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div
+														class="d-flex justify-content-between align-items-center product-bottom product-bottom">
+														<div class="starBox p-0 col-lg-6">
+															<i class="far fa-star visible-wish fa"></i>
+															<a href="javascript:;" class="hover-wish">
+																<label>
+																	<input type="checkbox" data-active="1"
+																		onclick="$(this).addFavorite()">
+																	<i class="far fa-star fa"></i>
+																	<span>Favorine elave et bu urunu</span>
+																</label>
+															</a>
+														</div>
+														<div class="bagBox col-lg-6 p-0">
+															<i class="fa fa-shopping-bag visible-bag"></i>
+															<a href="details.html" class="hover-bag">
+																<span>Sepete Ekle </span>
+																<i class="fa fa-shopping-bag"></i>
+															</a>
+														</div>
+													</div>
+													<div class="product-attr-area">
+														<div class="product-attr">
+															<div class="new">
+																Yeni
+															</div>
+															<div class="premium">
+																Premium
+															</div>
+															<div class="chance">
+																Firsat
+															</div>
+															<div class="discount-percent">
+																10%
 															</div>
 														</div>
-														<div class="col-md-4 col-sm-6 col-xs-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-6 text-center mt-5 p-0">
+												<div class="products-area">
+													<div class="products">
+														<a href="#">
+															<img src="assets/images/Casio/new1.jfif" alt="">
+															<div class="desc">
+																<h4>Carbon</h4>
+																<p> MTS-100L-7AVDF Kol Saati Lorem ipsum
+																	dolor sit amet consectetur
+																	adipisicing
+																	elit. Ut non perspiciatis reiciendis
+																	ducimus numquam laudantium vel
+																	ab
+																	nostrum repellat a.</p>
+																<div class="products-price">
+																	<div class="item_previous_price">
+																		7.019,00 ₺</div>
+																	<div class="item_price">
+																		<p>6.317,10 ₺</p>
 																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div
+														class="d-flex justify-content-between align-items-center product-bottom product-bottom">
+														<div class="starBox p-0 col-lg-6">
+															<i class="far fa-star visible-wish fa"></i>
+															<a href="javascript:;" class="hover-wish">
+																<label>
+																	<input type="checkbox" data-active="1"
+																		onclick="$(this).addFavorite()">
+																	<i class="far fa-star fa"></i>
+																	<span>Favorine elave et bu urunu</span>
+																</label>
+															</a>
+														</div>
+														<div class="bagBox col-lg-6 p-0">
+															<i class="fa fa-shopping-bag visible-bag"></i>
+															<a href="details.html" class="hover-bag">
+																<span>Sepete Ekle </span>
+																<i class="fa fa-shopping-bag"></i>
+															</a>
+														</div>
+													</div>
+													<div class="product-attr-area">
+														<div class="product-attr">
+
+															<div class="discount-percent">
+																10%
 															</div>
 														</div>
-														<div class=" col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-6 text-center mt-5 p-0">
+												<div class="products-area">
+													<div class="products">
+														<a href="#">
+															<img src="assets/images/Casio/new1.jfif" alt="">
+															<div class="desc">
+																<h4>Carbon</h4>
+																<p> MTS-100L-7AVDF Kol Saati Lorem ipsum
+																	dolor sit amet consectetur
+																	adipisicing
+																	elit. Ut non perspiciatis reiciendis
+																	ducimus numquam laudantium vel
+																	ab
+																	nostrum repellat a.</p>
+																<div class="products-price">
+																	<div class="item_previous_price">
+																		7.019,00 ₺</div>
+																	<div class="item_price">
+																		<p>6.317,10 ₺</p>
 																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div
+														class="d-flex justify-content-between align-items-center product-bottom product-bottom">
+														<div class="starBox p-0 col-lg-6">
+															<i class="far fa-star visible-wish fa"></i>
+															<a href="javascript:;" class="hover-wish">
+																<label>
+																	<input type="checkbox" data-active="1"
+																		onclick="$(this).addFavorite()">
+																	<i class="far fa-star fa"></i>
+																	<span>Favorine elave et bu urunu</span>
+																</label>
+															</a>
+														</div>
+														<div class="bagBox col-lg-6 p-0">
+															<i class="fa fa-shopping-bag visible-bag"></i>
+															<a href="details.html" class="hover-bag">
+																<span>Sepete Ekle </span>
+																<i class="fa fa-shopping-bag"></i>
+															</a>
+														</div>
+													</div>
+													<div class="product-attr-area">
+														<div class="product-attr">
+															<div class="discount-percent">
+																10%
 															</div>
 														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox">
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-6 text-center mt-5 p-0">
+												<div class="products-area">
+													<div class="products">
+														<a href="#">
+															<img src="assets/images/Casio/new1.jfif" alt="">
+															<div class="desc">
+																<h4>Carbon</h4>
+																<p> MTS-100L-7AVDF Kol Saati Lorem ipsum
+																	dolor sit amet consectetur
+																	adipisicing
+																	elit. Ut non perspiciatis reiciendis
+																	ducimus numquam laudantium vel
+																	ab
+																	nostrum repellat a.</p>
+																<div class="products-price">
+																	<div class="item_previous_price">
+																		7.019,00 ₺</div>
+																	<div class="item_price">
+																		<p>6.317,10 ₺</p>
 																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div
+														class="d-flex justify-content-between align-items-center product-bottom product-bottom">
+														<div class="starBox p-0 col-lg-6">
+															<i class="far fa-star visible-wish fa"></i>
+															<a href="javascript:;" class="hover-wish">
+																<label>
+																	<input type="checkbox" data-active="1"
+																		onclick="$(this).addFavorite()">
+																	<i class="far fa-star fa"></i>
+																	<span>Favorine elave et bu urunu</span>
+																</label>
+															</a>
+														</div>
+														<div class="bagBox col-lg-6 p-0">
+															<i class="fa fa-shopping-bag visible-bag"></i>
+															<a href="details.html" class="hover-bag">
+																<span>Sepete Ekle </span>
+																<i class="fa fa-shopping-bag"></i>
+															</a>
+														</div>
+													</div>
+													<div class="product-attr-area">
+														<div class="product-attr">
+															<div class="new">
+																Yeni
+															</div>
+															<div class="premium">
+																Premium
+															</div>
+															<div class="chance">
+																Firsat
+															</div>
+															<div class="discount-percent">
+																10%
 															</div>
 														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-6 text-center mt-5 p-0">
+												<div class="products-area">
+													<div class="products">
+														<a href="#">
+															<img src="assets/images/Casio/new1.jfif" alt="">
+															<div class="desc">
+																<h4>Carbon</h4>
+																<p> MTS-100L-7AVDF Kol Saati Lorem ipsum
+																	dolor sit amet consectetur
+																	adipisicing
+																	elit. Ut non perspiciatis reiciendis
+																	ducimus numquam laudantium vel
+																	ab
+																	nostrum repellat a.</p>
+																<div class="products-price">
+																	<div class="item_previous_price">
+																		7.019,00 ₺</div>
+																	<div class="item_price">
+																		<p>6.317,10 ₺</p>
 																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div
+														class="d-flex justify-content-between align-items-center product-bottom product-bottom">
+														<div class="starBox p-0 col-lg-6">
+															<i class="far fa-star visible-wish fa"></i>
+															<a href="javascript:;" class="hover-wish">
+																<label>
+																	<input type="checkbox" data-active="1"
+																		onclick="$(this).addFavorite()">
+																	<i class="far fa-star fa"></i>
+																	<span>Favorine elave et bu urunu</span>
+																</label>
+															</a>
+														</div>
+														<div class="bagBox col-lg-6 p-0">
+															<i class="fa fa-shopping-bag visible-bag"></i>
+															<a href="details.html" class="hover-bag">
+																<span>Sepete Ekle </span>
+																<i class="fa fa-shopping-bag"></i>
+															</a>
+														</div>
+													</div>
+													<div class="product-attr-area">
+														<div class="product-attr">
+
+															<div class="discount-percent">
+																10%
 															</div>
 														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-6 text-center mt-5 p-0">
+												<div class="products-area">
+													<div class="products">
+														<a href="#">
+															<img src="assets/images/Casio/new1.jfif" alt="">
+															<div class="desc">
+																<h4>Carbon</h4>
+																<p> MTS-100L-7AVDF Kol Saati Lorem ipsum
+																	dolor sit amet consectetur
+																	adipisicing
+																	elit. Ut non perspiciatis reiciendis
+																	ducimus numquam laudantium vel
+																	ab
+																	nostrum repellat a.</p>
+																<div class="products-price">
+																	<div class="item_previous_price">
+																		7.019,00 ₺</div>
+																	<div class="item_price">
+																		<p>6.317,10 ₺</p>
 																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
+																</div>
 															</div>
+														</a>
+													</div>
+													<div
+														class="d-flex justify-content-between align-items-center product-bottom product-bottom">
+														<div class="starBox p-0 col-lg-6">
+															<i class="far fa-star visible-wish fa"></i>
+															<a href="javascript:;" class="hover-wish">
+																<label>
+																	<input type="checkbox" data-active="1"
+																		onclick="$(this).addFavorite()">
+																	<i class="far fa-star fa"></i>
+																	<span>Favorine elave et bu urunu</span>
+																</label>
+															</a>
 														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
-																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
-															</div>
+														<div class="bagBox col-lg-6 p-0">
+															<i class="fa fa-shopping-bag visible-bag"></i>
+															<a href="details.html" class="hover-bag">
+																<span>Sepete Ekle </span>
+																<i class="fa fa-shopping-bag"></i>
+															</a>
 														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
-																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
-															</div>
-														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
-																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
-															</div>
-														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
-																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
-															</div>
-														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
-																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
-															</div>
-														</div>
-														<div class="col-md-4 col-sm-6 text-center mt-5">
-															<div class="single-product">
-																<a href="#">
-																	<div class="single-img">
-																		<img
-																			src="./assets/images/totem/index/product.webp">
-																		<div class="fav">
-																			<label>
-																				<input type="checkbox"
-																					class="fav-checkbox" checked>
-																				<svg id="heart-svg"
-																					viewBox="467 392 58 57">
-																					<g id="Group" fill="none"
-																						fill-rule="evenodd"
-																						transform="translate(467 392)">
-																						<path
-																							d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z"
-																							id="heart" fill="#bfc9cf">
-																						</path>
-																						<circle id="main-circ"
-																							fill="#E2264D" opacity="0"
-																							cx="29.5" cy="29.5" r="1.5">
-																						</circle>
-
-																						<g id="grp7" opacity="0"
-																							transform="translate(7 6)">
-																							<circle id="oval1"
-																								fill="#9CD8C3" cx="2"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#8CE8C3" cx="5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp6" opacity="0"
-																							transform="translate(0 28)">
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="3"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp3" opacity="0"
-																							transform="translate(52 28)">
-																							<circle id="oval2"
-																								fill="#9CD8C3" cx="2"
-																								cy="7" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#8CE8C3" cx="4"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp2" opacity="0"
-																							transform="translate(44 6)">
-																							<circle id="oval2"
-																								fill="#CC8EF5" cx="5"
-																								cy="6" r="2">
-																							</circle>
-																							<circle id="oval1"
-																								fill="#CC8EF5" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp5" opacity="0"
-																							transform="translate(14 50)">
-																							<circle id="oval1"
-																								fill="#91D2FA" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#91D2FA" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp4" opacity="0"
-																							transform="translate(35 50)">
-																							<circle id="oval1"
-																								fill="#F48EA7" cx="6"
-																								cy="5" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#F48EA7" cx="2"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-
-																						<g id="grp1" opacity="0"
-																							transform="translate(24)">
-																							<circle id="oval1"
-																								fill="#9FC7FA" cx="2.5"
-																								cy="3" r="2">
-																							</circle>
-																							<circle id="oval2"
-																								fill="#9FC7FA" cx="7.5"
-																								cy="2" r="2">
-																							</circle>
-																						</g>
-																					</g>
-																				</svg>
-																			</label>
-																		</div>
-																		<div class="view-item">
-																			Bax
-																		</div>
-																	</div>
-																	<div class="categ-name">
-																		<p>Butun kateqoriyalar</p>
-																	</div>
-																	<div class="item-name">
-																		<p>White t-shirt with animal</p>
-																	</div>
-																	<div class="products-price">
-																		<div class="item_price">
-																			<p>50AZN</p>
-																		</div>
-																		<div class="item_previous_price">70AZN</div>
-																	</div>
-																</a>
+													</div>
+													<div class="product-attr-area">
+														<div class="product-attr">
+															<div class="discount-percent">
+																10%
 															</div>
 														</div>
 													</div>
@@ -2407,115 +885,12 @@
 											</div>
 										</div>
 									</div>
-
-
-
-								</div>
+							
 							</div>
 						</div>
-						<div class="tab-pane fade rounded bg-white" id="v-pills-messages" role="tabpanel"
-							aria-labelledby="v-pills-messages-tab">
-							<div class="tab-header">
-								<h3>Adress</h3>
-							</div>
-							<button class="col-md-4 add-adress" type="button" data-toggle="modal" data-target="#date">
-								<p><i class="fas fa-calendar"></i> </p>
-								<p>+ Add special day</p>
-							</button>
 
-							<div
-								class="container d-md-flex d-sm-block justify-content-between p-0 special-day flex-wrap">
-								<div class="mt-4 my-single-date">
-									<div>
-										<div class="container d-flex justify-content-between align-items-center p-0">
-											<span style="color: rgb(78, 78, 78); font-size: 19px;">Special Day</span>
-											<i class="fa fa-times"></i>
-										</div>
-										<div class="mt-2"> <i class="fas fa-calendar mr-1"></i> 20-17-2021</div>
-										<div
-											class="container d-flex justify-content-between align-items-center p-0 pt-2">
-											<span class="my-full-address" style="font-size: 13px; color: gray;">
-												Read
-												reviews, compare customer
-												ratings, see
-												screenshots, and learn more about Google Translate. Download Google
-												Translate and enjoy it on your
-												iPhone</span>
-										</div>
-									</div>
-								</div>
-								<div class="mt-4 my-single-date">
-									<div>
-										<div class="container d-flex justify-content-between align-items-center p-0">
-											<span style="color: rgb(78, 78, 78); font-size: 19px;">Special Day</span>
-											<i class="fa fa-times"></i>
-
-										</div>
-										<div class="mt-2"> <i class="fas fa-calendar mr-1"></i> 20-17-2021</div>
-										<div
-											class="container d-flex justify-content-between align-items-center p-0 pt-2">
-											<span style="font-size: 13px; color: gray;"> Read reviews, compare customer
-												ratings, see and enjoy
-												it on your
-												iPhone</span>
-										</div>
-									</div>
-								</div>
-
-							</div>
-
-
-
-							<div class="container">
-								<!-- The Modal -->
-								<div class="modal fade" data-backdrop="static" id="date">
-									<div class="modal-dialog modal-md">
-										<div class="modal-content">
-
-											<!-- Modal Header -->
-											<div class="modal-header">
-												<h4 class="modal-title">Add Special Day</h4>
-												<button type="button" class="close"
-													data-dismiss="modal">&times;</button>
-											</div>
-
-											<!-- Modal body -->
-											<div class="modal-body">
-												<div>
-													<div class="row">
-														<div class="col-md-12">
-															<label>Add Date</label><br>
-															<input class="form-control" type="date" value=""
-																placeholder="Select date">
-														</div>
-
-													</div>
-
-												</div>
-												<div class="row mt-4">
-													<div class="col-md-12 add-country">
-														<label for="country">Special Day</label>
-														<input class="form-control" type="text"
-															placeholder="Wedding Anniversary">
-													</div>
-												</div>
-											</div>
-											<!-- Modal footer -->
-											<div class="modal-footer">
-												<button type="button" class="btn btn-secondary save-date"
-													data-dismiss="modal">Save</button>
-											</div>
-
-										</div>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="tab-pane fade shadow rounded bg-white" id="v-pills-settings" role="tabpanel"
-							aria-labelledby="v-pills-settings-tab">
+						<div class="tab-pane fade shadow rounded bg-white edit-data" id="v-pills-settings"
+							role="tabpanel" aria-labelledby="v-pills-settings-tab">
 							<div class="tab-header">
 								<h3>Edit Profile</h3>
 							</div>
@@ -2523,55 +898,47 @@
 							<div class="container rounded bg-white mt-5">
 								<div class="row">
 									<div class="col-md-7 border-right">
-										<div class="user-information  p-3 py-5">
-											<div class="d-flex justify-content-between align-items-center mb-3">
-												<h4 class="text-right">User Information</h4>
-											</div>
-											<div class="row mt-2">
-												<div class="col-md-6"><label class="labels">Name</label><input
-														type="text" class="form-control" placeholder="Name" value="">
-												</div>
-												<div class="col-md-6"><label class="labels">Surname</label><input
-														type="text" class="form-control" value="" placeholder="Surname">
-												</div>
-											</div>
-											<div class="row mt-3">
-												<div class="col-md-12 mb-3"><label class="labels">Phone
-														Number</label><input type="text" class="form-control"
-														placeholder="Enter phone number" value="">
-												</div>
-												<div class="col-md-12 mb-3"><label class="labels">Address</label><input
-														type="text" class="form-control" placeholder="Enter address"
-														value="">
-												</div>
-												<div class="col-md-12 mb-3"><label class="labels">Email</label>
-													<input type="text" class="form-control" placeholder="Enter email"
-														value="">
-												</div>
-												<div class="col-md-12 mb-2 mt-1 d-flex">
-													<label class="mr-2">
-														<input type="radio" value="" name="gender">
-														Kisi
-													</label>
-													<label>
-														<input type="radio" value="" name="gender">
-														Qadin
-													</label>
-												</div>
-												<div class="col-md-12 "><label class="labels">Birthday</label>
-													<input type="date" class="form-control" placeholder="Birthday"
-														value="">
-												</div>
-											</div>
+										<form action="" class="register">
+											<label>
+												Ad
+												<input type="text" placeholder="Ad">
+											</label>
+											<label>
+												Soyad
+												<input type="text" placeholder="Soyad">
+											</label>
 
-											<div class="mt-4 text-center"><button
-													class="btn btn-warning profile-button form-control"
-													type="button">Save Profile</button>
-											</div>
-										</div>
+											<label>
+												E-poçt
+												<input type="email" placeholder="E-mail">
+											</label>
+											<label>
+												Nomreniz
+												<div class="register-number">
+													<span class="countrycode">+994</span>
+													<input type="text" id="phone" placeholder="(__) ___-__-__" />
+												</div>
+
+											</label>
+											<label>
+												Cinsiyyet
+												<select name="Cinsiyet" class="gender-select">
+													<option value="0"></option>
+													<option value="1">Kadın</option>
+													<option value="2">Erkek</option>
+												</select>
+											</label>
+											<label>
+												Dogum tarixi
+												<input type="date" placeholder="Nomreniz">
+											</label>
+
+											<button type="submit">Gonder</button>
+
+										</form>
 									</div>
 									<div class="col-md-5 change-password">
-										<div class="p-3 py-5">
+										<div class="py-5">
 											<div class="d-flex justify-content-between align-items-center mb-3">
 												<h4>Change Password</h4>
 											</div>
@@ -2613,52 +980,99 @@
 	</section>
 
 	<footer>
-		<div class="footer_content container justify-content-center">
-			<div class="row d-flex justify-content-center">
-				<ul class="col-lg-3 col-md-6 col-sm-12 mt-3 footer-logo">
-					<img src="./assets/images/totem/index/1.png" alt="">
-				</ul>
-				<ul class="col-lg-3 col-md-6 col-sm-12 mt-3">
-					<h5>About Us</h5>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Term of Use</a></li>
-					<li><a href="#">Careers of Magazine Shop</a></li>
-					<li><a href="#">Investors' site</a></li>
-				</ul>
-				<ul class="col-lg-3 col-md-6 col-sm-12 mt-3">
-					<h5>Magazine Shop</h5>
-					<li><a href="#">Basket</a></li>
-					<li><a href="#">My orders</a></li>
-					<li><a href="#">My wishlist</a></li>
-					<li><a href="#">My account</a></li>
-				</ul>
-				<ul class="col-lg-3 col-md-6 col-sm-12 mt-3">
-					<h5>Social Media</h5>
-					<div class=" footer_social_media">
-						<div class="d-flex align-items-center">
-							<a href="#">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a href="#">
-								<i class="icon-twitter"></i>
-							</a>
-							<a href="#">
-								<i class="icon-instagram"></i>
-							</a>
-							<a href="#">
-								<i class='icon-youtube-play'></i>
-							</a>
+		<div class="">
+			<div class="container">
+				<div class="row footer-area">
+					<div class="col-lg-3 col-md-6 catalog">
+						<h3>Kataloq</h3>
+						<ul>
+							<li class="nav-item active"><a href="#">G-shock</a></li>
+							<li class="nav-item"><a href="#">Baby-G</a></li>
+							<li class="nav-item"><a href="#">Pro Trek</a></li>
+							<li class="nav-item"><a href="#">EdiFice</a></li>
+							<li class="nav-item"><a href="#">Sheen</a></li>
+							<li class="nav-item"><a href="#">General</a></li>
+							<li class="nav-item"><a href="#">2020 © MERIDIAN.AZ</a></li>
+							<li class="nav-item"><a href="#">Butun huquqlar qorunur</a></li>
+							<li class="nav-item"><a href="#">Gizlilik siyaseti</a></li>
+							<li class="nav-item"><a href="#">Istifade sertleri</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<img src="assets/images/Casio/footer-img.png" alt="" />
+						<div class="mt-3">
+							<h3>Operated by:</h3>
+							<a href="">
+								<img src="assets/images/Casio/footer-img2.png" alt="" /></a>
 						</div>
 					</div>
-
-					<div class="markup-agency">
-						<h5>Veb sayt <a href="https://www.markup.az/" class="footer-markup">Markup Agency</a> tərəfindən
-							hazırlanıb</h5>
+					<div class="col-lg-3 col-md-6">
+						<h3>Komek ve xidmetler</h3>
+						<ul>
+							<li class="nav-item active"><a href="#">Ana sehife</a></li>
+							<li class="nav-item"><a href="catalog.html">Kataloq</a></li>
+							<li class="nav-item"><a href="header-tab.html">Nece almaq olar</a></li>
+							<li class="nav-item"><a href="header-tab.html">Catdirilma</a></li>
+							<li class="nav-item"><a href="header-tab.html">Zemanet</a></li>
+							<li class="nav-item"><a href="header-tab.html">Sirket haqqinda</a></li>
+							<li class="nav-item"><a href="contact.html">Elaqe</a></li>
+						</ul>
 					</div>
-				</ul>
+					<div class="col-lg-3 col-md-6 contact">
+						<ul>
+							<li><a href="#">Tel:+994 51 855 00 00</a></li>
+							<li><a href="#">Email: info@meridian.az</a></li>
+							<li>
+								<a href="#">İş vaxtları: B.e-Cümə: 09:00-18:00; Şənbə: 09:00-18:00;
+									Bazar: İstirahət günü</a>
+							</li>
+							<li><a href="#">Bakı ş., Əhməd Cəmil 64/66</a></li>
+							<li><a href="#" class="see-map">Xritede baxin</a></li>
+						</ul>
+						<ul class="social-media">
+							<li>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-whatsapp"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+							</li>
+						</ul>
+						<div class="markup-agency">
+							<h5>
+								Veb sayt
+								<a href="https://www.markup.az/" class="footer-markup">Markup Agency</a>
+								tərəfindən hazırlanıb
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<ul>
+						<li>
+							<a href="#">
+								<i class="fa fa-commenting-o"></i>
+								Elaqe Formasi
+							</a>
+						</li>
+						<li><a href="#">+994 51 855 00 00</a></li>
+						<li><a href="#">info@meridian.az</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</footer>
+	<a href="https://api.whatsapp.com/send?phone=904443772&amp;text=Merhaba" class="wapp-float stickWhatsapp"
+		target="_blank">
+		<i class="fab fa-whatsapp " aria-hidden="true"></i>
+	</a>
 
 	<script src="assets/js/index.js"></script>
 
@@ -2673,95 +1087,13 @@
 			}
 			else {
 				$(this).parents('.col-md-12').find(".password").attr("type", "text");
-				$(this).parent().css("color", "#ef3c34");
+				$(this).parent().css("color", "#003296");
 				state = true;
 				$(this).attr('data-seen', 1);
 			}
 		}
 	</script>
 
-	<script>
-		var map; //Will contain map object.
-		var marker = false; ////Has the user plotted their location marker?
-
-		//Function called to initialize / create the map.
-		//This is called when the page has loaded.
-		function initMap() {
-
-			//The center location of our map.
-			var centerOfMap = new google.maps.LatLng(40.409264, 49.867092);
-
-			//Map options.
-			var options = {
-				center: centerOfMap, //Set center.
-				zoom: 7 //The zoom value.
-			};
-
-			//Create the map object.
-			map = new google.maps.Map(document.getElementById('map'), options);
-
-			//Listen for any clicks on the map.
-			google.maps.event.addListener(map, 'click', function (event) {
-				//Get the location that the user clicked.
-				var clickedLocation = event.latLng;
-				//If the marker hasn't been added.
-				if (marker === false) {
-					//Create the marker.
-					marker = new google.maps.Marker({
-						position: clickedLocation,
-						map: map,
-						draggable: true //make it draggable
-					});
-					//Listen for drag events!
-					google.maps.event.addListener(marker, 'dragend', function (event) {
-						markerLocation();
-					});
-				} else {
-					//Marker has already been added, so just change its location.
-					marker.setPosition(clickedLocation);
-				}
-				//Get the marker's location.
-				markerLocation();
-			});
-		}
-
-		//This function will get the marker's current location and then add the lat/long
-		//values to our textfields so that we can save the location.
-		function markerLocation() {
-			//Get location.
-			var currentLocation = marker.getPosition();
-			//Add lat and lng values to a field that we can save.
-			document.getElementById('lat').value = currentLocation.lat().toPrecision(9); //latitude
-			document.getElementById('lng').value = currentLocation.lng().toPrecision(9); //longitude
-		}
-
-
-		//Load the map when the page has finished loading.
-		google.maps.event.addDomListener(window, 'load', initMap);
-
-
-		navigator.geolocation.getCurrentPosition(function (position) {
-
-
-			var latitude = position.coords.latitude;
-			var longitude = position.coords.longitude;
-			var infoWindowHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
-			var infoWindow = new google.maps.InfoWindow({ map: map, content: infoWindowHTML });
-			var currentLocation = { lat: latitude, lng: longitude };
-			infoWindow.setPosition(currentLocation);
-
-
-		});
-    // var latitude = $('input[name=lat]').val();
-    // var longitude =  $('input[name=lng]').val();
-    // var infoWindowHTML = "Latitude:" + latitude + "<br>Longitude:" + longitude;
-    // var infoWindow = new google.maps.InfoWindow({map: map, content: infoWindowHTML});
-    // var currentLocation = { lat: latitude, lng: longitude };
-    // document.getElementById("btnAction").style.display = 'none';
-
-    // $('input[name=lat]').val(parseFloat($('input[name=lat]').val()).toFixed(7));
-    // $('input[name=lng]').val(parseFloat($('input[name=lng]').val()).toFixed(7));
-	</script>
 
 
 
@@ -2777,13 +1109,6 @@
 	</script>
 
 
-	<!-- Delete Address -->
-	<script>
-		$(".my-single-date").on("click", ".fa-times", function () {
-			$(this).parents(".my-single-date").remove()
-
-		})
-	</script>
 
 
 	<script data-minify="1" type='text/javascript'

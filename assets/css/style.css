@@ -473,12 +473,19 @@ h6 {
   font-family: "Robotos", sans-serif !important;
 }
 
-.user-information input.form-control,
 .change-password input.form-control {
   font-size: 15px !important;
   border: 1px solid #ced4da;
   color: #999;
   cursor: pointer;
+  padding: 0 12px;
+  height: 48px;
+  border: 0;
+  background-color: #f3f3f3 !important;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  display: block;
 }
 
 ul {
@@ -1416,15 +1423,14 @@ button:focus {
 }
 
 .nav-pills-custom .nav-link {
-  color: rgb(153, 153, 153);
+  color: #333 !important;
   background: #fff;
   position: relative;
   font-weight: 300 !important;
 }
 
 .shadow:nth-of-type(1),
-.shadow:nth-of-type(2),
-.shadow:nth-of-type(3) {
+.shadow:nth-of-type(2) {
   border-bottom: none;
 }
 
@@ -1434,7 +1440,13 @@ button:focus {
 
 .account-information {
   position: relative;
-  height: 290px;
+
+  border: 1px solid rgb(223, 223, 223);
+  display: block;
+  background: #0c0c0c;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
 }
 
 .account-information img {
@@ -1450,7 +1462,7 @@ button:focus {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
-  color: #05061e;
+  color: #fff;
   margin: 10px;
 }
 
@@ -1460,22 +1472,23 @@ button:focus {
   padding: 7px 12px;
   border-radius: 3px;
   border: 1px solid rgba(5, 6, 30, 0.07);
-  color: gray;
+  color: #fff;
 }
 
 .account-information>span i {
   color: black;
   margin-right: 5px;
+  color: #fff
 }
 
 .account-information p:nth-of-type(2) {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   padding: 12px 0;
-  width: 100%;
   font-size: 15px;
   margin-bottom: 0 !important;
-  background-color: rgba(5, 6, 30, 0.041);
+  background-color: rgb(245 245 255 / 10%);
+  color: #b1b3b9
 }
 
 .account-information p:nth-of-type(2) span {
@@ -1494,9 +1507,9 @@ button:focus {
 }
 
 .nav-pills-custom .nav-link.active {
-  color: #ef3c34 !important;
+  color: #003296 !important;
   background: #fff;
-  background: rgba(254, 110, 66, 0.089) !important;
+  background: rgb(66 167 254 / 9%) !important;
 }
 
 .tab-header {
@@ -1525,6 +1538,8 @@ button:focus {
   display: flex;
   align-items: center;
   padding: 30px;
+  border-radius: 10px;
+  background-color: #000;
 }
 
 .my-account-area .add_basket button {
@@ -1561,27 +1576,14 @@ button:focus {
     max-width: 830px !important;
   }
 
-  .account-information {
-    height: 270px;
-  }
-
   .account-information p:nth-of-type(1) {
     font-size: 18px;
     margin-top: 16px;
     margin-bottom: 12px;
   }
 
-  .account-information>span {
-    font-size: 12px;
-  }
 
-  .account-information p:nth-of-type(2) {
-    font-size: 12px;
-  }
 
-  .account-information p:nth-of-type(2) span {
-    font-size: 11px;
-  }
 }
 
 /* Account Edit Profile */
@@ -1597,7 +1599,7 @@ button:focus {
 
 .profile-button,
 .password-button {
-  background: #ef3c34 !important;
+  background: #003296 !important;
   box-shadow: none;
   border: none;
   color: white !important;
@@ -1606,20 +1608,20 @@ button:focus {
 .profile-button:hover,
 .password-button:hover {
   background: white !important;
-  border: 1px solid #ef3c34 !important;
-  color: #ef3c34 !important;
+  border: 1px solid #003296 !important;
+  color: #003296 !important;
 }
 
 .profile-button:focus,
 .password-button:focus {
-  background: #ef3c34 !important;
+  background: #003296 !important;
   color: white !important;
   box-shadow: none;
 }
 
 .profile-button:active,
 .password-button:active {
-  background: #ef3c34 !important;
+  background: #003296 !important;
   box-shadow: none;
 }
 
@@ -1629,9 +1631,8 @@ button:focus {
 }
 
 .labels {
-  font-size: 12.5px;
+  font-size: 13.5px;
   margin-bottom: 3px !important;
-  color: #999;
 }
 
 .change-password .col-md-12 {
@@ -1713,10 +1714,8 @@ button:focus {
 }
 
 /* Orders Table CSS */
-
 .my-account-area .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
-  background: rgba(254, 110, 66, 0.041) !important;
+  background: rgb(66 167 254 / 6%) !important;
 }
 
 .my-account-area .table-bordered thead td,
@@ -1742,8 +1741,8 @@ button:focus {
 }
 
 .my-account-area .page-item.active .page-link {
-  background-color: #ef3c34 !important;
-  border-color: #ef3c34 !important;
+  background-color: #003296 !important;
+  border-color: #003296 !important;
   color: #fff !important;
 }
 
@@ -1753,7 +1752,7 @@ button:focus {
 }
 
 .my-account-area .page-link {
-  color: #ef3c34 !important;
+  color: #003296 !important;
 }
 
 .my-account-area .active>a {
@@ -2469,6 +2468,12 @@ label {
   .main-product-filter .filter-buttons button {
     padding: 6px;
   }
+  .tab-header {
+    margin-top: 30px;
+  }
+  .edit-data{
+    border: none !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2532,9 +2537,7 @@ label {
     width: 90%;
   }
 
-  .tab-header {
-    margin-top: 30px;
-  }
+
 
   .user-information>.row>.col-md-6:first-child {
     margin-bottom: 1rem !important;
@@ -5396,15 +5399,6 @@ footer .contact ul li {
   }
 }
 
-/* @keyframes animatename {
-  0% {
-    transform: translateY(10px);
-  }
-
-  100% {
-    transform: translateY(-10px);
-  }
-} */
 
 .sticky {
   top: 0px;
@@ -6124,7 +6118,7 @@ footer .contact ul li {
   padding: 16.5px 15px;
   position: absolute;
   bottom: 0;
-  z-index: -10;
+  /* z-index: -10; */
   transform: translateX(0);
   transition: all 0.3s ease-in-out;
 }
@@ -6245,6 +6239,12 @@ footer .contact ul li {
   padding: 13px 5px;
 }
 
+.starBox label,
+.bagBox label {
+  display: flex;
+  align-items: center;
+}
+
 .starBox input[type="checkbox"] {
   display: none;
 }
@@ -6262,6 +6262,14 @@ footer .contact ul li {
 .starBox,
 .bagBox {
   width: 50%;
+}
+
+.starBox span,
+.bagBox span {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .stickWhatsapp {
@@ -7127,7 +7135,8 @@ body.modal-open {
 label.agree {
   display: inline-block !important;
 }
- label.agree i {
+
+label.agree i {
   font-size: 8px;
   color: red;
   position: absolute;
@@ -7252,13 +7261,15 @@ label.agree {
 .others button,
 .register label,
 .register input,
-.register button  {
+.register button {
   display: block;
 }
+
 .forget label,
-.others label{
+.others label {
   margin-top: 14px;
 }
+
 .forget input,
 .forget input:focus,
 .others input,
@@ -7266,10 +7277,9 @@ label.agree {
 .register input,
 .register input:focus,
 .register select,
-.register select:focus
- {
+.register select:focus {
   padding: 0 12px;
-  width: 420px;
+  width: 100% !important;
   height: 48px;
   border: 0;
   background-color: #f3f3f3;
@@ -7301,7 +7311,7 @@ label.agree {
 .others button,
 .others button:focus,
 .register button,
-.register button:focus  {
+.register button:focus {
   outline: none;
   background-color: #003296;
   outline: none;
@@ -7315,19 +7325,24 @@ label.agree {
 .forget button:hover {
   background: #4065b0;
 }
-.register label{
+
+.register label {
   margin-top: 15px;
 }
+
 label.informed input,
-label.informed input:focus{
+label.informed input:focus {
   width: auto;
   height: auto;
   display: inline;
 }
+
 label.informed {
   display: inline-block !important;
+  position: relative;
 }
- label.informed i {
+
+label.informed i {
   font-size: 8px;
   color: red;
   position: absolute;
@@ -7335,6 +7350,56 @@ label.informed {
   left: inherit;
   right: -7px;
 }
+
+.register-number span,
+.register input,
+.register select {
+  color: gray
+}
+
+.register-number input,
+.register-number input:focus {
+  display: inline-block;
+  background: transparent;
+  width: auto !important;
+  margin-top: 0;
+  color: gray
+}
+
+.register-number {
+  padding: 0 12px;
+  width: 100% !important;
+  height: 48px;
+  border: 0;
+  background-color: #f3f3f3;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  display: block;
+}
+
+.features_items .products-area {
+  margin: 0 5px;
+}
+
+
+
+
+.features_items .products-area:hover .hover-wish,
+.features_items .products-area:hover .hover-bag,
+.features_items .products-area .hover-wish,
+.features_items .products-area .hover-bag {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7357,6 +7422,11 @@ label.informed {
   .starBox label,
   .bagBox .hover-bag {
     padding: 13px 5px 13px 5px;
+  }
+
+  .starBox label,
+  .bagBox label {
+    display: block;
   }
 }
 
@@ -7577,6 +7647,20 @@ label.informed {
 }
 
 @media (max-width: 520px) {
+
+  .forget input,
+  .forget input:focus,
+  .others input,
+  .others input:focus,
+  .register input,
+  .register input:focus,
+  .register select,
+  .register select:focus,
+  .register-number {
+    padding: 0 12px;
+    width: 100%;
+  }
+
   .contact_info .contact_item {
     width: 100%;
     margin-bottom: 15px;
