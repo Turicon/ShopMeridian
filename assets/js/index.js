@@ -143,12 +143,12 @@ $(document).ready(function () {
   });
 
   $(".product_color").slick({
-    infinite: true,
+    infinite: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: false,
     arrows: true,
-    responsive: [
+       responsive: [
       {
         breakpoint: 700, // tablet breakpoint
         settings: {
