@@ -51,7 +51,12 @@ body {
   color: #fff;
   font-size: 12px;
 }
+.header .social-media li{
+  width: 20px;
+  height: auto;
+  line-height: auto;
 
+}
 .social-media {
   display: inline-block;
 }
@@ -425,7 +430,8 @@ body {
 }
 
 .header-middle .navbar-brand img {
-  width: 350px;
+  /* width: 330px; */
+  max-width: 330px;
   object-fit: cover;
 }
 
@@ -1512,11 +1518,21 @@ button:focus {
 .my-account-area .add:hover .add_basket button {
   color: white !important;
 }
-
+@media (max-width: 2000px) {
+  .ftco-navbar-light .header-right .nav-item>.nav-link {
+     padding: 0.5rem 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .ftco-navbar-light .header-right .nav-item>.nav-link {
+     padding: 0.5rem 5px;
+  }
+}
 @media (min-width: 1200px) {
   .my-account-area .container {
     max-width: 1200px !important;
   }
+
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -5236,6 +5252,7 @@ footer .contact ul li {
 
 .social-media {
   display: flex;
+  align-items: center;
 }
 
 .social-media li i {
@@ -5316,7 +5333,12 @@ footer .contact ul li {
 .woo-wishlist-link i {
   font-size: 18px;
 }
-
+.woo-wishlist-link i{
+  color: #003296;
+}
+.woo-wishlist-link:hover i{
+  color: #007bff;
+}
 .block-minicart {
   position: relative;
 }
@@ -5474,7 +5496,7 @@ footer .contact ul li {
   min-width: 21px;
   height: 21px;
   padding: 0 1px;
-  background-color: #003296;
+  background-color: #003296
 }
 
 /* *********************** */
@@ -5720,8 +5742,7 @@ footer .contact ul li {
     text-align: center;
     padding: 0 3px;
     border-radius: 50%;
-    background-color: #ff5050;
-    font-size: 12px;
+     font-size: 12px;
     color: #fff;
   }
 
@@ -7552,7 +7573,9 @@ label.informed i {
 }
 
 @media (max-width: 520px) {
-
+.header .social-media{
+  display: none;
+}
   .forget input,
   .forget input:focus,
   .others input,
